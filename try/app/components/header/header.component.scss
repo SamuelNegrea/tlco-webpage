@@ -1,0 +1,425 @@
+
+
+.spaziotraoggettieresto{
+    display: flex;
+}
+
+.pulsantiebar{
+    display: block;
+}
+
+.twitter_icon{
+    margin-left: 5px;
+    height: 35px;
+}
+
+.servizi{
+    height: 127px;
+}
+
+.soluzioni{
+    height: 127px;
+}
+
+.servizidrop {
+    display: none;
+}
+
+.servizi:hover {
+
+    ~.servizidrop {
+        display: block !important;
+        margin-left: -185%;
+    }
+
+        
+    ~.visibile{
+    visibility: visible;
+}
+
+
+}
+
+
+.servizidrop:hover {
+
+    display: block !important;
+    margin-left: -185%;
+}
+
+.assistenza{
+    margin-left: 30%;
+}
+
+.newsletter{
+    margin-left: 4%;
+}
+
+
+.soluzionidrop {
+    display: none;
+}
+
+.soluzioni:hover {
+
+    ~.soluzionidrop {
+        display: block !important;
+        margin-left: -184%;
+        margin-top: 55px;
+    }
+
+}
+
+
+.soluzionidrop:hover {
+        display: block !important;
+        margin-left: -184%;
+        margin-top: 55px;
+
+}
+
+.via{
+    margin-left: -20px;
+    margin-top: 2%;
+}
+
+
+.textphone{
+    margin-left: 10px;
+    margin-top: 2%;
+}
+
+
+
+
+/*.soluzionidrop {
+    display: none;
+
+    &:hover {
+        ~.soluzionidrop {
+            display: block !important;
+        }
+    }
+}*/
+
+.divisore {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 3px 5px #b0b0b1;
+  
+}
+
+.logo {
+    margin-left: 3%;
+    margin-top: 0.5%;
+}
+
+p {
+    margin-left: 0.5%;
+}
+
+.posizione {
+    margin-left: 30px;
+    margin-top: 2.5%;
+    width: 100px;
+}
+
+.instagram_icon {
+
+    margin-top: 1%;
+    margin-top: 4.5%;
+    width: 30%;
+    margin-left: -5px;
+
+    
+}
+
+.facebook_icon {
+
+    margin-top: 2%;
+    width: 30%;
+
+}
+
+.linkedin_icon {
+
+    width: 30%;
+    margin-top: 2%;
+
+}
+
+.phone {
+    margin-top: 2.5%;
+    margin-left: 2%;
+    
+
+}
+
+.email{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.icone{
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-top: 2%;
+    gap: 4;
+}
+.pulsante {
+    margin-top: 1%;
+   float: right;
+    height: 35px;
+    width: 170px;
+    background-color: #2E2655;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 10.5px;
+    margin-right: 5px;
+
+}
+
+.secondo_pulsante {
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 35px;
+    width: 170px;
+    background-color: #AAC711;
+    color: black;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12.5px;
+    margin-right: 10px;
+}
+
+.varilink {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 7%;
+    margin-top: -2%;
+}
+
+.simbolomail{
+   
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+li {
+    margin-left: 8%;
+}
+
+a {
+    text-decoration: none;
+    color: #2E2655;
+    font-weight: bolder;
+    font-family: "Segoe UI", Sans-serif;
+
+}
+
+
+.topnav .search-container button {
+    float: right;
+    margin-top: -12%;
+    background-color: #27214F;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 35px;
+    margin-top: 0.5%;
+    margin-left: -15%;
+}
+
+.topnav .search-container {
+   /* margin-left: 68%;*/
+    margin-top: 6%;
+}
+
+
+
+.topnav input[type=text] {
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+
+.mobile{
+    display:none;
+}
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+.burger{
+    margin-left: 85%;
+    margin-top: 20px;
+}
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+
+.lunghezzabarra{
+    position: static;
+}
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .burger{
+        margin-left: 80%;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .burger{
+        margin-left: 70%;
+        margin-top: 20px;
+    }
+
+}
+
+ @media screen and  (min-width: 1100px) and (max-width: 1700px) {
+ .topnav .search-container {
+     float: right;
+    /* margin-left: 68%;*/
+     margin-top: -3%;
+     }
+
+     .pulsanti{
+         margin-left: 15%;
+         margin-right: 3%;
+         float: right;
+    
+     }
+
+ }
+
+ 
+
+ @media screen and  (min-width: 1600px) and (max-width: 1700px) {
+    .pulsanti{
+        margin-left: 20%;
+        margin-right: 3%;
+        float: right;
+   
+    }
+ }
+
+ @media screen and  (min-width: 1700px) and (max-width: 1800px) {
+
+    .pulsanti{
+        margin-left: 25%;
+        margin-right: 3%;
+        float: right;
+    
+    }
+
+ .topnav .search-container {
+    float: right;
+
+     margin-top: -3%;
+     }
+
+ }
+
+ @media screen and  (min-width: 1800px) and (max-width: 1900px) {
+    .pulsanti{
+        margin-left: 25%;
+        margin-right: 5%;
+        float: right;
+    
+    }
+
+    .topnav .search-container {
+        float: right;
+    margin-right: 3%;
+         margin-top: -3%;
+         }
+    
+ }
+
+
+ @media screen and  (min-width: 1900px) and (max-width: 2000px) {
+    .pulsanti{
+        margin-left: 23%;
+        margin-right: 3%;
+        float: right;
+    
+    }
+
+    .topnav .search-container {
+        float: right;
+    margin-right: 10%;
+         margin-top: -3%;
+         }
+
+ }
+
+
+ @media screen and  (min-width: 2000px) and (max-width: 2200px) {
+
+    .pulsanti{
+        margin-left: 20%;
+        margin-right: 3%;
+        float: right;
+    
+    }
+
+ .topnav .search-container {
+    float: right;
+margin-right: 18%;
+     margin-top: -3%;
+     }
+
+ }
+
+ @media screen and  (min-width: 2200px) and (max-width: 2400px) {
+
+    .pulsanti{
+        margin-left: 40%;
+        margin-right: 3%;
+        float: right;
+    
+    }
+
+ .topnav .search-container {
+    float: right;
+
+     margin-top: -3%;
+     }
+
+ }
+
+
+ @media screen and  (min-width: 2400px) and (max-width: 2600px) {
+
+    .pulsanti{
+        margin-left: 45%;
+        margin-right: 3%;
+        float: right;
+    
+    }
+
+ .topnav .search-container {
+    float: right;
+
+     margin-top: -3%;
+     }
+
+ }
+

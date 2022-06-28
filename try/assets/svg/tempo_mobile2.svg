@@ -1,0 +1,35 @@
+ <svg xmlns="http://www.w3.org/2000/svg" width="95.526" height="77.722"
+                    viewBox="0 0 95.526 77.722">
+                    <g transform="translate(1.5 0)">
+                        <g transform="translate(30.254 13.95)" fill="none" stroke="#fff" stroke-width="3">
+                            <ellipse cx="31.886" cy="31.886" rx="31.886" ry="31.886" stroke="none">
+                            </ellipse>
+                            <ellipse cx="31.886" cy="31.886" rx="30.386" ry="30.386" fill="none"></ellipse>
+                        </g>
+                        <g transform="translate(40.218 23.914)" fill="none" stroke="#fff" stroke-width="3">
+                            <ellipse cx="21.589" cy="21.922" rx="21.589" ry="21.922" stroke="none">
+                            </ellipse>
+                            <ellipse cx="21.589" cy="21.922" rx="20.089" ry="20.422" fill="none"></ellipse>
+                        </g>
+                        <g transform="translate(54.833 6.643)" fill="none" stroke="#fff" stroke-width="3">
+                            <rect width="13.95" height="9.3" stroke="none"></rect>
+                            <rect x="1.5" y="1.5" width="10.95" height="6.3" fill="none"></rect>
+                        </g>
+                        <g transform="translate(48.854 0)" fill="none" stroke="#fff" stroke-width="3">
+                            <path d="M0,0H21.572a5,5,0,0,1,5,5V8.636a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z"
+                                stroke="none"></path>
+                            <path
+                                d="M1.5,1.5H21.572a3.5,3.5,0,0,1,3.5,3.5V7.136a0,0,0,0,1,0,0H1.5a0,0,0,0,1,0,0V1.5A0,0,0,0,1,1.5,1.5Z"
+                                fill="none"></path>
+                        </g>
+                        <path d="M4723.013-7214.851v15.238l7.705-7.933" transform="translate(-4660.188 7248.948)"
+                            fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                        </path>
+                        <path d="M4653.689-7229.758h18.433" transform="translate(-4639.194 7253.461)" fill="none"
+                            stroke="#fff" stroke-linecap="round" stroke-width="3"></path>
+                        <path d="M4653.689-7229.758h25.955" transform="translate(-4653.689 7262.526)" fill="none"
+                            stroke="#fff" stroke-linecap="round" stroke-width="3"></path>
+                        <path d="M4653.689-7229.758H4671.7" transform="translate(-4645.742 7270.89)" fill="none"
+                            stroke="#fff" stroke-linecap="round" stroke-width="3"></path>
+                    </g>
+                </svg>

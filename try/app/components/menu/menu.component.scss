@@ -1,0 +1,127 @@
+.nascosto{
+    display:none;
+  }
+
+ 
+ .menu{
+     background-color: #ffffff;
+     width: 100%;
+     display: block;
+     top:0;
+    height: 100vh;
+
+ }
+
+  li a{
+    margin-top: 300px;
+     color: #2E2655;
+     text-decoration: none;
+     list-style-type: none;
+     font-family: "Segoe UI", Sans-serif;
+     font-size:xx-large;
+     font-weight: 400;
+     
+ }
+  li{
+      padding-top: 1%;
+      list-style-type: none;
+      margin-left: 1.5%;
+  }
+
+  .cerca{
+      margin-top: 30px;
+      padding: 8px;
+      margin-left: 1%;
+  }
+
+  .messaggio{
+      margin-top: 30px;
+      margin-left: 25px;
+  }
+
+ @media screen and (min-width: 800px) and (max-width: 1300px){
+    li{
+        padding-top: 0.5%;
+      
+    }
+
+    li{
+        margin-left: 1.5%;
+    
+    }
+
+ }
+
+ .pulsante{
+    margin-top: 4%;
+   float: left;
+    height: 35px;
+    width: 200px;
+    background-color: #2E2655;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 10.5px;
+    margin-right: 5px;
+    margin-left: 1%;
+ }
+
+
+ .secondo_pulsante{
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 35px;
+    width: 200px;
+    background-color: #AAC711;
+    color: black;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12.5px;
+    margin-left: 1%;
+ 
+ }
+
+ .posizione{
+     margin: 30px;
+ }
+
+ .phone{
+     margin-top: 28px;
+ }
+
+.seguici{
+    margin-top: 0px;
+    margin-left: 2%;
+    color: #2E2655;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 500;
+}
+
+.facebook_icon{
+    margin-top: -0.3%;
+    margin-left: 5px;
+    color: #2E2655;
+}
+
+.instagram_icon{
+    margin-left: 5px;
+    color: #2E2655;
+    margin-top: -0.1%;
+}
+
+.linkedin_icon{
+    margin-left: 10px;
+    color: #2E2655;
+    margin-top: -0.2%;
+}
+
+.newsletter{
+    font-size: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.assistenza{
+    font-size: 15px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 40px;
+}

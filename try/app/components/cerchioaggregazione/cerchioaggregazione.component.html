@@ -1,0 +1,53 @@
+
+<div class="desktop">
+    <div class="formattazione">
+
+        <h2 class="titolop">I momenti di aggregazione e lo spirito di gruppo</h2>
+
+        <p class="primap">Da sempre, <strong>sosteniamo momenti di aggregazione</strong> all’insegna del divertimento e dello svago, al <strong>fine di creare un team coeso attraverso attività che esulano dal mondo professionale</strong> e che ci coinvolgono sotto l’aspetto personale. Da bravi modenesi e in linea con la migliore tradizione emiliana, abbiamo dato libero sfogo ad <strong>attività ludiche e di svago</strong>, comprese <strong>cene, aperitivi</strong> a base di salame e lambrusco ed <strong>eventi</strong> che contribuiscono a creare quello <strong>spirito di gruppo</strong> fondamentale per ottenere migliori risultati anche in ambito professionale.</p>
+                
+    
+    <div class="flex-1 flex flex-wrap contenitoreciclocard">
+       
+        <div *ngFor="let item of news; index as i;" class="ciclocard">
+    
+           
+            <p-card class="cardnews">
+    
+                <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 100)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+    
+               
+            </p-card>
+            <br>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="mobile">
+      
+        <div class="spaziocard">
+            <h2 class="titolop">I momenti di aggregazione e lo spirito di gruppo</h2>
+
+            <p class="primap">Da sempre, <strong>sosteniamo momenti di aggregazione</strong> all’insegna del divertimento e dello svago, al <strong>fine di creare un team coeso attraverso attività che esulano dal mondo professionale</strong> e che ci coinvolgono sotto l’aspetto personale. Da bravi modenesi e in linea con la migliore tradizione emiliana, abbiamo dato libero sfogo ad <strong>attività ludiche e di svago</strong>, comprese <strong>cene, aperitivi</strong> a base di salame e lambrusco ed <strong>eventi</strong> che contribuiscono a creare quello <strong>spirito di gruppo</strong> fondamentale per ottenere migliori risultati anche in ambito professionale.</p>
+                    
+    <div *ngFor="let item of news; index as i;" class="ciclocard2">
+    
+    
+        <p-card class="cardnews2">
+            <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 130)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+    
+            <!-- <img src="{{item._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard">
+            <p class="titolo">{{item.title.rendered}}</p>
+            {{item.excerpt.rendered.slice(3, 130)}}
+            <ng-template pTemplate="footer">
+                <div class="flex-1 flex spazio">
+                    <p class="data">{{item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                    <button pButton class=" p-button-rounded bottonenews">{{item._embedded['wp:term'][0][0].name}}</button>
+                </div>
+            </ng-template> -->
+        </p-card>
+        <br>
+    </div> 
+    </div>
+    </div>

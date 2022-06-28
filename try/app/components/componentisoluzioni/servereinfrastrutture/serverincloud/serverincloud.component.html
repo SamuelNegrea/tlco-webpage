@@ -1,0 +1,53 @@
+<div class="riquadroverde">
+
+    <p-dropdown class="drop" [options]="options" [(ngModel)]="selectedOption" optionLabel="name"></p-dropdown>
+
+    <p class="p1">Ogni giorno progettiamo, implementiamo e supportiamo le aziende nella <strong>gestione delle architetture IT</strong> su cui si basano i sistemi informativi.</p>
+
+    <p class="p2">La nostra è un’attività di tipo sartoriale e prevede un‘<strong>analisi preliminare</strong> delle specifiche necessità delle aziende, per fornire un <strong>progetto con adeguati livelli di affidabilità, scalabilità, sicurezza dei dati</strong> e con un costo operativo concorrenziale.</p>
+
+    <p class="p3">In base alle specifiche esigenze, proponiamo quindi le soluzioni più adatte, dalle infrastrutture tradizionali basate su <strong>server hardware</strong> fisico, a quelle <strong>virtualizzate</strong> con uno o più server, <strong>cluster o alta affidabilità, SAN</strong>.</p>
+
+    <p class="p4">Progettiamo infrastrutture <strong>iperconvergenti</strong> ed in <strong>cloud</strong>, supportati dai migliori provider di servizi come <strong>Amazon Web Services, Microsoft Azure e Google Cloud Platform</strong>.</p>
+
+
+
+    <div class="divicone flex">
+
+        <p-tabView>
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-storageFinalGreen.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Server Hardware'"></app-icone>
+            </p-tabPanel>
+           
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-virtualizzazioneFinal.svg'"></app-icone>
+                    
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Virtualizzazione'"></app-icone>
+            </p-tabPanel>
+    
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-iperconvFinal.svg'"></app-icone>
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Iperconvergenza'"></app-icone>
+            </p-tabPanel>
+    
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-cloudFinal.svg'"></app-icone>
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Server in Cloud'"></app-icone>
+            </p-tabPanel>
+    
+        </p-tabView>
+    
+    
+    </div>
+
+</div>

@@ -1,0 +1,57 @@
+
+
+
+    
+<div class="desktop">
+    <div class="formattazione">
+        <h2 class="titolop">Lo sport è vita, passione e valori che condividiamo</h2>
+
+        <p class="primap">L’<strong>amore per lo sport</strong> ci accompagna dai nostri inizi: <strong>TEL&CO sostiene infatti numerose associazioni sportive</strong> che trasmettono i valori sani e formativi ai giovani, dal calcio al rugby passando per pallavolo e nuoto.
+            Da diversi anni siamo inoltre <strong>partner tecnologico del Modena Volley e del Modena Rugby</strong>.</p>
+        
+    
+    <div class="flex-1 flex flex-wrap contenitoreciclocard">
+       
+        <div *ngFor="let item of news; index as i;" class="ciclocard">
+    
+           
+            <p-card class="cardnews">
+    
+                <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 100)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+    
+               
+            </p-card>
+            <br>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="mobile">
+       
+        <div class="spaziocard">
+            <h2 class="titolop">Lo sport è vita, passione e valori che condividiamo</h2>
+
+            <p class="primap">L’<strong>amore per lo sport</strong> ci accompagna dai nostri inizi: <strong>TEL&CO sostiene infatti numerose associazioni sportive</strong> che trasmettono i valori sani e formativi ai giovani, dal calcio al rugby passando per pallavolo e nuoto.
+                Da diversi anni siamo inoltre <strong>partner tecnologico del Modena Volley e del Modena Rugby</strong>.</p>
+            
+    <div *ngFor="let item of news; index as i;" class="ciclocard2">
+    
+    
+        <p-card class="cardnews2">
+            <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 130)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+    
+            <!-- <img src="{{item._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard">
+            <p class="titolo">{{item.title.rendered}}</p>
+            {{item.excerpt.rendered.slice(3, 130)}}
+            <ng-template pTemplate="footer">
+                <div class="flex-1 flex spazio">
+                    <p class="data">{{item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                    <button pButton class=" p-button-rounded bottonenews">{{item._embedded['wp:term'][0][0].name}}</button>
+                </div>
+            </ng-template> -->
+        </p-card>
+        <br>
+    </div> 
+    </div>
+    </div>

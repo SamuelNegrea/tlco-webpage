@@ -1,0 +1,224 @@
+<div class="desktop">
+
+    <app-riquadroinalto [colore] = "'colore1'" [titolo] = "'News e avvisi'" [paragrafo] = "'Una raccolta di novità informatiche, news su aggiornamenti e vulnerabilità, curiosità e informazioni di servizio curata dalla nostra redazione.'"></app-riquadroinalto>
+
+
+</div>
+
+<div class="sottoi1000">
+<div class="riquadroviola">
+
+   
+        <h1>News e avvisi</h1>
+
+        <p class="paragrafo">Una raccolta di novità informatiche, news su aggiornamenti e vulnerabilità, curiosità e
+            informazioni di servizio curata dalla nostra redazione.</p>
+
+        <img class="view" src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-page-seo-web-and-advertising-media-flatart-icons-outline-flatarticons.png" />
+</div>
+
+
+
+
+
+<p-card class="cardnews primacard2">
+
+    <!-- <app-unavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)" [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-unavviso> -->
+    <app-primoavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)" [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-primoavviso>
+
+    <!-- <img src="{{news[0]._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard2">
+
+    <p class="titolo dimensionetitolo">{{news[0].title.rendered}}</p>
+    {{news[0].excerpt.rendered.slice(3, 100)}}
+    <ng-template pTemplate="footer">
+        <div class="flex-1 flex spazio">
+            <p class="data">{{news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+            <button pButton
+                class=" p-button-rounded bottonenews">{{news[0]._embedded['wp:term'][0][0].name}}</button>
+        </div>
+    </ng-template> -->
+</p-card>
+
+
+
+<div *ngFor="let item of news.slice(1); index as i;" class="ciclocard">
+    <p-card class="cardnews">
+        <app-unavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)"  [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-unavviso>
+
+        <!-- <img src="{{item._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard">
+
+        <p class="titolo dimensionetitolo2">{{item.title.rendered}}</p>
+        {{item.excerpt.rendered.slice(3, 100)}}
+        <ng-template pTemplate="footer">
+            <div class="spazio">
+                <p class="data">{{item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                <button pButton
+                    class=" p-button-rounded bottonenews">{{item._embedded['wp:term'][0][0].name}}</button>
+            </div>
+        </ng-template> -->
+
+    </p-card>
+    <br>
+</div>
+</div>
+
+
+
+
+<br>
+<br>
+
+<div class="soprai1300">
+
+<p-card class="cardnews primacard">
+
+            <!-- <app-unavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)" [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-unavviso> -->
+
+            <app-primoavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)" [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-primoavviso>
+    <!-- <img src="{{news[0]._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard2">
+<div class="lato1">
+    <p class="titolo dimensionetitolo">{{news[0].title.rendered}}</p>
+    {{news[0].excerpt.rendered.slice(3, 100)}}
+    <ng-template pTemplate="footer">
+        <div class="flex-1 flex spazio">
+            <p class="data">{{news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+            <button pButton
+                class=" p-button-rounded bottonenews">{{news[0]._embedded['wp:term'][0][0].name}}</button>
+        </div>
+    </ng-template>
+</div> -->
+</p-card>
+
+<div class="flex flex-wrap justify-content-center distanza">
+<div *ngFor="let item of news.slice(1); index as i;" class="ciclocard gap-0">
+  
+
+    <p-card class="cardnews">
+        <app-unavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)"  [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-unavviso>
+
+        <!-- <img src="{{item._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard">
+        <div class="lato">
+        <p class="titolo dimensionetitolo2">{{item.title.rendered}}</p>
+        {{item.excerpt.rendered.slice(3, 100)}}
+        <ng-template pTemplate="footer">
+            <div class="flex-1 flex spazio">
+                <p class="data">{{item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                <button pButton
+                    class=" p-button-rounded bottonenews">{{item._embedded['wp:term'][0][0].name}}</button>
+            </div>
+        </ng-template>
+    </div> -->
+    </p-card>
+
+    <br>
+
+    </div>
+</div>
+</div>
+
+
+<div class="sottoi1300">
+
+
+
+    <p-card class="cardnews primacard">
+
+        <!-- <app-unavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)"  [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-unavviso> -->
+        <app-primoavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)" [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-primoavviso>
+
+        <!-- <img src="{{news[0]._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard2">
+
+        <p class="titolo dimensionetitolo">{{news[0].title.rendered}}</p>
+        {{news[0].excerpt.rendered.slice(3, 100)}}
+        <ng-template pTemplate="footer">
+            <div class="spazio">
+                <p class="data">{{news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                <button pButton
+                    class=" p-button-rounded bottonenews">{{news[0]._embedded['wp:term'][0][0].name}}</button>
+            </div>
+        </ng-template> -->
+
+    </p-card>
+    
+    
+    <div *ngFor="let item of news.slice(1); index as i;" class="ciclocard">
+    
+    
+        <p-card class="cardnews">
+
+            <app-unavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)"  [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-unavviso>
+
+            <!-- <img src="{{item._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard">
+
+            <p class="titolo dimensionetitolo2">{{item.title.rendered}}</p>
+            {{item.excerpt.rendered.slice(3, 100)}}
+            <ng-template pTemplate="footer">
+                <div class="spazio">
+                    <p class="data">{{item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                    <button pButton
+                        class=" p-button-rounded bottonenews">{{item._embedded['wp:term'][0][0].name}}</button>
+                </div>
+            </ng-template> -->
+
+        </p-card>
+        <br>
+    
+    </div>
+
+</div>
+
+    <div class="sottoi700">
+<div class="spostainalto">
+        <app-riquadroinalto [colore] = "'colore1'" [titolo] = "'News e avvisi'" [paragrafo] = "'Una raccolta di novità informatiche, news su aggiornamenti e vulnerabilità, curiosità e informazioni di servizio curata dalla nostra redazione.'"></app-riquadroinalto>
+</div>
+
+        <p-card class="cardnews primacard">
+
+            <!-- <app-unavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)"  [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-unavviso> -->
+            <app-primoavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)" [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-primoavviso>
+
+            <!-- <img src="{{news[0]._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard2">
+    
+            <p class="titolo dimensionetitolo">{{news[0].title.rendered}}</p>
+            {{news[0].excerpt.rendered.slice(3, 100)}}
+            <ng-template pTemplate="footer">
+                <div class="spazio">
+                    <p class="data">{{news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                    <button pButton
+                        class=" p-button-rounded bottonenews">{{news[0]._embedded['wp:term'][0][0].name}}</button>
+                </div>
+            </ng-template>
+     -->
+        </p-card>
+        
+        
+        <div *ngFor="let item of news.slice(1); index as i;" class="ciclocard">
+        
+            <app-unavviso [immagine] = "news[0]._embedded['wp:featuredmedia'][0].source_url" [titolo] = "news[0].title.rendered" [descrizione]="news[0].excerpt.rendered.slice(3, 100)"  [data] = "news[0]._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "news[0]._embedded['wp:term'][0][0].name"></app-unavviso>
+
+            <p-card class="cardnews">
+                <!-- <img src="{{item._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard">
+    
+                <p class="titolo dimensionetitolo2">{{item.title.rendered}}</p>
+                {{item.excerpt.rendered.slice(3, 100)}}
+                <ng-template pTemplate="footer">
+                    <div class="spazio">
+                        <p class="data">{{item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                        <button pButton
+                            class=" p-button-rounded bottonenews">{{item._embedded['wp:term'][0][0].name}}</button>
+                    </div>
+                </ng-template>
+     -->
+            </p-card>
+            <br>
+        
+        </div>
+
+
+    </div>
+
+
+
+
+
+<!-- <pippo pulsante=["server hardware", "virtualizzazione", "iperconvergenza", "server in cloud"]></pippo> -->

@@ -1,0 +1,295 @@
+.riquadroazzurro{
+
+background-image: linear-gradient(90deg, #013C5E 22%, #7AD4D1 71%);
+width: screen;
+height: 600px; 
+}
+
+
+
+:host ::ng-deep .p-dropdown-label{
+    color: #004a75;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+:host ::ng-deep .p-dropdown-items-wrapper{
+    max-height: 400px !important;
+}
+
+:host ::ng-deep .p-dropdown{
+    left: 10%;
+    top: 15%;
+    border-radius: 25px;
+    width: 30%;
+}
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items{
+    background: #004a75;
+}
+
+
+.selezionatore{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 30%;
+    height: 10%;
+    border-radius: 25px;
+
+    .paragrafozero{
+        font-size: 25px;
+        color: #004a75;
+    }
+}
+
+.p1{
+    margin-top: 7%;
+    margin-left: 10%;
+    color: #FFFFFFDB;
+    font-family: "Segoe UI", sans-serif;
+    width: 35%;
+}
+
+.p2{
+    margin-top: 1%;
+    margin-left: 10%;
+    color: #FFFFFFDB;
+    font-family: "Segoe UI", sans-serif;
+    width: 35%;
+}
+
+h1{
+    color: #004A75;
+    font-size: 40px;
+    font-family: "Segoe UI", sans-serif;
+    margin-left: 10%;
+    font-weight: 700;
+}
+
+.p3{
+    margin-left: 10%; 
+    font-family: "Segoe UI", sans-serif;
+    width: 80%;
+}
+
+.p4{
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+    width: 80%;
+}
+
+h2{
+    color: #004A75;
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.p5{
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+    width: 80%;
+}
+
+.p6{
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+    width: 80%;
+}
+
+
+.p7{
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+    width: 80%;
+}
+
+.riquadroazzurro2{
+   background-image: linear-gradient(90deg, #7AD4D1 0%, #004A75 58%);
+   height: 700px;
+   width: screen;
+   margin-top: 5%;
+
+   h1{
+       font-size: 20px;
+       color: white;
+       margin-left: 3%;
+   }
+
+   .sinistra{
+       margin-top: 2%;
+       margin-left: 10%;
+       width: 40%;
+   }
+
+   .destra{
+       margin-top: 2%;
+       width: 40%;
+   }
+
+   .primaimmagineasinistra{
+    height: 50px;
+    width: 50px;
+}
+
+
+.secondaimmagineasinistra{
+    height: 50px;
+    width: 50px;
+}
+
+.terzaimmagineasinistra{
+    height: 50px;
+    width: 50px;
+}
+
+.quartaimmagineasinistra{
+    height: 60px;
+    width: 60px;
+}
+
+.quintaimmagineasinistra{
+    height: 50px;
+    width: 50px;
+}
+
+.sestaimmagineasinistra{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+}
+
+
+
+
+.titolo{
+    margin-top: 7%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+
+
+.divicone{
+    margin-top: 1%;
+    margin-left: 10%;
+   width: 25%;
+   justify-content: space-between;
+   gap: 38px;
+}
+
+:host ::ng-deep .p-accordion .p-accordion-header .p-accordion-header-link{
+    color: white;
+    background: rgb(0, 0, 0, 0%);
+    border: rgb(0, 0, 0, 0%);
+}
+
+
+
+
+.bottone{
+    background: #7ad4d1;
+    border-radius: 25px;
+    width: fit-content;
+    height: 30px;
+    font-size: 17px;
+}
+
+
+
+:host ::ng-deep .p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link{
+    background: rgb(0, 0, 0, 0%);
+    color: white;
+}
+
+
+.p-accordion .p-accordion-content{
+    background: rgb(0, 0, 0, 0%);
+}
+
+
+h3{
+    color: #2E2655;
+    font-size: 25px;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 500;
+}
+
+.destra{
+    margin-left: 5%;
+}
+
+.uno{
+    margin-left: 20px;
+}
+
+.due{
+    margin-left: 20px;
+}
+
+.tre{
+    margin-left: 20px;
+}
+
+.quattro{
+    margin-left: 15px;
+}
+
+.cinque{
+    margin-left: 20px;
+}
+
+.sei{
+    margin-left: 20px;
+}
+
+.quartaimmagineasinistra{
+    margin-bottom: 10px;
+}
+
+
+:host ::ng-deep .car .p-component, .p-component{
+    width: 100%;
+}
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item{
+    color: white;
+}
+
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover{
+    color: white;
+    background: #075583;
+}
+
+
+
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight{
+    background: none;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-nav{
+    background: transparent;
+}
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    background: transparent;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    background: transparent;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-panels{
+    background: transparent;
+    color: white;
+}

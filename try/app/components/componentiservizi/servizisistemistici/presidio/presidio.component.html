@@ -1,0 +1,173 @@
+<div class="riquadroazzurro">
+
+       <p-dropdown class="drop" [options]="options" [(ngModel)]="selectedOption" optionLabel="name"></p-dropdown>
+      
+      <p class="p1">I servizi sistemistici consistono in tutte quelle attività di supporto alla gestione delle infrastrutture informatiche in azienda.
+        Questa tipologia di servizi è solitamente gestita dal nostro team di esperti, ogni giorno al fianco delle aziende per garantire continuità ed un corretto funzionamento dei sistemi informatici delle imprese che si affidano a noi.</p>
+
+        <p class="p2">Così facendo, le imprese sono sgravate da quelle attività sistemistiche quotidiane, a volte necessarie  ma spesso dimenticate o rimandate, e potendo così concentrarsi sul proprio core business e ottenere una gestione più razionale e sicura degli apparati informatici, oltre che un generale contenimento dei costi.</p>
+
+
+        <div class="divicone flex">
+
+
+
+          <p-tabView>
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-helpdesk.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Help Desk'"></app-icone>
+            </p-tabPanel>
+
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-presidio.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Presidio e manutenzione'"></app-icone>
+            </p-tabPanel>
+
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-gdprWebFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Vulnerability Assessment'"></app-icone>
+            </p-tabPanel>
+
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-businessFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Prevenzione'"></app-icone>
+            </p-tabPanel>
+
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-recuperoDatiFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Recupero dati'"></app-icone>
+            </p-tabPanel>
+
+        </p-tabView>   
+        </div>
+</div>
+
+
+<h1>Presidio e manutenzione pianificata</h1>
+
+<p class="p3">Nelle aziende sono sempre in crescita le <strong>esigenze informatiche</strong> e anche le competenze tecniche richieste al personale dedicato a seguire la parte IT, ma per motivi di costi non è sempre possibile assumere le figure tecniche necessarie. </p>
+
+<p class="p4">Oltre ai costi diretti legati alla <strong>retribuzione</strong> occorre infatti considerare altri aspetti come la <strong>formazione</strong>, la gestione delle assenze come <strong>malattie</strong> e <strong>ferie</strong>, il rischio stesso di assumere una risorsa che non si integra a dovere nell’organizzazione aziendale o, peggio, che una volta formata decida di licenziarsi.</p>
+
+<p class="p5">Il servizio di presidio consente di <strong>disporre dei tecnici qualificati solo per le attività ed il tempo strettamente necessario</strong> ad ogni specifico progetto o necessità.</p>
+
+<h2>IL NOSTRO SERVIZIO</h2>
+
+<p class="p6">Il nostro <strong>servizio di presidio</strong> consente di avere <strong>presso la tua sede uno o più tecnici già formati e competenti</strong>, solo per il numero di ore o giorni settimanali necessari e solo <strong>per il periodo di tempo concordato</strong>, sia per progetti aziendali specifici in affiancamento al tuo personale e con competenze di primo o di secondo livello.</p>
+
+<p class="p7">Oltre alle attività ordinarie che potrai richiedere, siamo in grado di occuparci del <strong>monitoraggio e amministrazione di PC, server e network</strong>, installazione e verifica degli aggiornamenti software di <strong>sicurezza</strong>, test pianificati di <strong>restore di dati dai backup</strong> per verifiche periodiche della loro effettiva operatività.</p> 
+
+<p class="p8">Possiamo effettuare <strong>test di disaster recovery</strong> per verificare l’efficienza dell’architettura fisica e virtuale, oltre ad offrire un <strong>approccio proattivo</strong> per tutte quelle attività di <strong>prevenzione</strong> atte a scongiurare blocchi ricorsivi e dannosi dell’operatività aziendale.</p>
+
+
+<div class="riquadroazzurro2">
+<div class="flex">
+    <div class="sinistra">
+    <h1>I NOSTRI VANTAGGI</h1>
+    <br>
+    
+    <div class="flex uno">
+    <img class="settimaimmagineasinistra" src="../../../assets/images/Raggruppa-100.svg">
+    <p-accordion>
+      <p-accordionTab header="COMPETENZE CERTIFICATE">
+      <p class="piccoloparagrafo">Tutte le nostre risorse tecniche hanno competenze certificate sui sistemi IT più diffusi e sono continuamente aggiornate con cicliche sessioni di formazione. Questo consente ai nostri clienti di delegare a noi la gestione delle problematiche IT che richiedono know how o addirittura certificazioni specifiche. Operando quotidianamente in realtà aziendali differenti, i nostri tecnici hanno le competenze ed un approccio proattivo in grado di portare valore, sicurezza e performance ad ogni tipologia di rete aziendale.</p> 
+      </p-accordionTab>
+    </p-accordion>
+    </div>
+    
+    
+    <div class="flex due">
+      <img class="ottavaimmagineasinistra" src="../../../assets/images/Raggruppa-631.svg">
+      <p-accordion>
+        <p-accordionTab header="DISPONIBILITA' QUOTIDIANA'">
+    <p> il nostro team di help desk, composto da  tecnici informatici, supporta quotidianamente i nostri clienti per ogni tipo necessità o problematica operativa. Nella stragrande maggioranza dei casi espletiamo le richieste nel giro di pochissimo tempo e da remoto. Grazie alla costante interoperatività tra help desk e pianificazione, se necessario organizziamo interventi presso i clienti per quelle criticità non risolvibili dalla nostra sede.  Maggiori dettagli qui: https://devtlco.tlco.info/assistenza-tecnica/ </p>
+    </p-accordionTab>
+    </p-accordion>
+    </div>
+    
+    
+    
+    <div class="flex tre">
+      <img class="nonaimmagineasinistra" src="../../../assets/images/Raggruppa-637.svg">
+      <p-accordion>
+        <p-accordionTab header="FLESSIBILITA'">
+    <p>La nostra modalità di erogazione di risorse e competenze assicura ai nostri clienti una notevole flessibilità rispetto all’assunzione in proprio del personale dedicato alle tematiche IT sempre più strategiche: grazie ai nostri pool di tecnici infatti, oltre a garantire presidi periodici onsite presso i nostri clienti, possiamo intervenire in orari straordinari, nel weekend o in orari notturni e garantire la copertura per tutti quei progetti o cambi tecnologici aziendali che richiedono esperienza, competenza, efficienza e puntualità.  </p> 
+    </p-accordionTab>
+    </p-accordion>
+    </div>
+    
+    <div class="flex quattro">
+      <img class="decimaimmagineasinistra" src="../../../assets/images/Raggruppa-626.svg">
+      <p-accordion>
+        <p-accordionTab header="RISPARMIO">
+    <p>Nessuna spesa inaspettata: il nostro servizio è erogato a prezzo fisso e con supporto continuativo, con un canone mensile per ogni dispositivo supportato.</p>
+    </p-accordionTab>
+    </p-accordion>
+    </div>
+    </div>
+   
+    <div class="destra">
+      <h1>AREE DI INTERVENTO</h1>
+      <br>
+    
+    
+      <p-accordion>
+        <p-accordionTab header="BACKUP E DISASTER RECOVERY">
+          <p>Siamo a tua disposizione per una consulenza sugli strumenti di lavoro: postazioni PC Windows e Apple Mac e dispositivi Mobili Android o Apple iOS.</p>
+          <button class="bottone">Scopri di più</button>  
+        </p-accordionTab>
+      </p-accordion>
+      
+    
+      <p-accordion>
+        <p-accordionTab header="POSTAZIONI DI LAVORO">
+    <p>Sappiamo che i dati informatici sono sempre più a rischio e occorre fare il necessario per proteggerli e per consentire la continuità operativa all’azienda.</p>
+    <button class="bottone">Scopri di più</button>  
+    </p-accordionTab>
+    </p-accordion>
+    
+    
+    <p-accordion>
+      <p-accordionTab header="MAIL E PEC">
+        <p>Le caselle di posta elettronica sono uno strumento essenziale di comunicazione interna verso gli altri colleghi, che per quella verso l’esterno, per gli ordinari scambi con partner, clienti, fornitori, collaboratori.</p>
+        <button class="bottone">Scopri di più</button>  
+      </p-accordionTab>
+    </p-accordion>
+    
+    
+    <p-accordion>
+      <p-accordionTab header="SERVER E INFRASTRUTTURE">
+        <p>Il dominio oggi rappresenta uno dei pilastri fondamentali dell’azienda ed è parte integrante dell’identità e dell’immagine dell’azienda.</p>
+        <button class="bottone">Scopri di più</button>  
+      </p-accordionTab>
+    </p-accordion>
+
+</div>
+    </div>
+    </div>
+ 
+
+    <app-carousel></app-carousel>

@@ -1,0 +1,30 @@
+
+
+
+<div class="h-30rem divisore2">
+
+
+    <div class="carousel">
+        <p-carousel class="carouselinuso" [value]="slides" [numVisible]="1" [autoplayInterval]="3000" [circular]="true" [numScroll]="1"
+            [orientation]="'horizontal'">
+            <ng-template let-slide pTemplate="item">
+                <div class="caption {{slide.classe}}">
+
+                    <h1 class="titolo">{{slide.titolo}}</h1>
+                    <h4 class="paragrafo">{{slide.paragrafo}}</h4>
+                    <h4 class="paragrafo2">{{slide.paragrafo2}}</h4>
+                    <button pButton type="button" class="p-button-raised p-button-rounded bottone"
+                        label="{{slide.pulsante}}"></button>
+                <div class="flex fleximmagine">
+                    
+                    
+                    <img src="{{slide.immagine}}" class="immagine">
+                </div>
+                </div>
+            </ng-template>
+        </p-carousel>
+
+    </div>
+
+</div>
+

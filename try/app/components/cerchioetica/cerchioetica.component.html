@@ -1,0 +1,58 @@
+<div class="desktop">
+<div class="formattazione">
+<p class="titolop">Fare impresa in modo etico è possibile</p>
+
+
+<p class="primap">L‘impegno etico di una impresa è fortemente influenzato dal grado di condivisione di valori comuni all’interno di un gruppo sociale ormai sempre più eterogeneo e interconnesso. Anche TEL&CO, in campo di etica aziendale, affronta l’impatto che la propria attività ha con l’ambiente che la circonda e con la responsabilità sociale derivante dal suo ruolo economico. </p>
+
+  <p class="secondap">In questo senso cerchiamo di individuare tematiche che riescono a definire un codice etico accettato e condiviso, rendendo partecipi i nostri clienti delle strategie, del modo di operare che ci contraddistingue sul mercato, oltre che dei prodotti e dei servizi informatici offerti.</p>
+
+
+<div class="flex-1 flex flex-wrap contenitoreciclocard">
+   
+    <div *ngFor="let item of news; index as i;" class="ciclocard">
+
+       
+        <p-card class="cardnews">
+
+            <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 100)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+
+           
+        </p-card>
+        <br>
+    </div>
+    </div>
+</div>
+</div>
+
+<div class="mobile">
+  
+
+    <div class="spaziocard">
+        <p class="titolop">Fare impresa in modo etico è possibile</p>
+
+
+        <p class="primap">L‘impegno etico di una impresa è fortemente influenzato dal grado di condivisione di valori comuni all’interno di un gruppo sociale ormai sempre più eterogeneo e interconnesso. Anche TEL&CO, in campo di etica aziendale, affronta l’impatto che la propria attività ha con l’ambiente che la circonda e con la responsabilità sociale derivante dal suo ruolo economico. </p>
+        
+          <p class="secondap">In questo senso cerchiamo di individuare tematiche che riescono a definire un codice etico accettato e condiviso, rendendo partecipi i nostri clienti delle strategie, del modo di operare che ci contraddistingue sul mercato, oltre che dei prodotti e dei servizi informatici offerti.</p>
+        
+<div *ngFor="let item of news; index as i;" class="ciclocard2">
+
+
+    <p-card class="cardnews2">
+        <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 130)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+
+        <!-- <img src="{{item._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard">
+        <p class="titolo">{{item.title.rendered}}</p>
+        {{item.excerpt.rendered.slice(3, 130)}}
+        <ng-template pTemplate="footer">
+            <div class="flex-1 flex spazio">
+                <p class="data">{{item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                <button pButton class=" p-button-rounded bottonenews">{{item._embedded['wp:term'][0][0].name}}</button>
+            </div>
+        </ng-template> -->
+    </p-card>
+    <br>
+</div> 
+</div>
+</div>

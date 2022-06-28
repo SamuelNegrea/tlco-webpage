@@ -1,0 +1,37 @@
+.cerchio{
+    height: 140px;
+    width: 140px;
+    border: 2px solid #2e2655;
+    border-radius: 50%;
+}
+
+.immagine{
+    height: 135px;
+    width: 135px;
+    border-radius: 100px;
+}
+
+.nome{
+    color: #2E2655;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    .nome{
+        color: #2E2655;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: "Segoe UI", Sans-serif;
+    }
+
+    .professione{
+        font-size: 10px;
+    }
+    
+
+}

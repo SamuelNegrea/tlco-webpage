@@ -1,0 +1,529 @@
+
+.servizidrop{
+    position: absolute;
+    margin-top: 55px;
+    height: 550px;
+    width: 1950px;
+    background-image: linear-gradient(90deg, #013C5E 0%, #7AD4D1 100%);
+  }
+
+
+
+
+h1{
+    padding-top: 2%;
+    font-size: 70px;
+    margin-left: 12%;
+    color:white;
+    font-family: "Segoe UI", Sans-serif;
+    font-weight: lighter;
+}
+
+h4{
+    font-size: 18px;
+    margin-left: 12%;
+    width: 25%;
+    color: white;
+    font-family: "Segoe UI", Sans-serif;
+    font-weight: lighter;
+    margin-top: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.serviziside{
+    display: block;
+    margin-left: 45%;
+    margin-top: -10%;
+    font-family: "Segoe UI", Sans-serif;
+    font-weight: bolder;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+.sersis1{
+    display: none !important;
+    }
+
+.sersis:hover{
+     .sersis1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -3%;
+    }
+
+    .helpdesk{
+        opacity: 0.8;
+        transition: 0.2s;
+     }
+
+    .helpdesk:hover{
+       font-size: 30px;
+       margin-top: 2%;
+       opacity: 1;
+       font-weight: 400;
+    }
+
+    .presidio{
+        opacity: 0.8;
+        transition: 0.2s;
+     }
+
+
+    .presidio:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .prevenzione{
+        opacity: 0.8;
+        transition: 0.2s;
+     }
+
+
+    .prevenzione:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .vulnerablity{
+        opacity: 0.8;
+        transition: 0.2s;
+     }
+
+
+    .vulnerability:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .recupero{
+        opacity: 0.8;
+        transition: 0.2s;
+     }
+
+
+    .recupero:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.sersis{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.gesinf1{
+    display: none !important;
+    }
+
+    
+.gesinf:hover{
+    .gesinf1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+
+
+    .postazioni{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .postazioni:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .server{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .server:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .backup{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .backup:hover{       
+            font-size: 30px;
+            margin-top: 2%;
+            opacity: 1; 
+            font-weight: 400;     
+    }
+
+    .sicurezza{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .sicurezza:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .voip{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .voip:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.gesinf{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+
+.supman1{
+    display: none !important;
+    }
+
+
+.supman:hover{
+   .supman1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -6%;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+
+    .post{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .post:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    .serv{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .serv:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    .back{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .back:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    .netw{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .netw:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    .deploy{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .deploy:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+}
+
+.supman{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.svilsof1{
+    display: none !important;
+    }
+
+.svilsof:hover{
+     .svilsof1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -8%;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+
+    .svilweb{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .svilweb:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .svilcom{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .svilcom:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .svilapp{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .svilapp:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .svilsof{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .svilsof:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .svilint{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .svilint:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .design{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .design:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .seo{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .seo:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .gest{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .gest:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+}
+
+.svilsof{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.fin1{
+    display: none !important;
+    }
+
+.fin:hover{
+   .fin1{
+    display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+
+    .agevolazioni{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .agevolazioni:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .locazione{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .locazione:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.fin{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.for1{
+    display: none !important;
+    }
+
+.for:hover{
+    .for1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+
+    .formazione{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .formazione:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    .istituti{
+        transition: 0.2s;
+        opacity: 0.8;
+    }
+
+    .istituti:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.for{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+

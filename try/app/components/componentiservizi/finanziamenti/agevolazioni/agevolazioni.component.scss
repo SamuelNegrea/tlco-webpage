@@ -1,0 +1,312 @@
+.riquadroazzurro{
+
+    background-image: linear-gradient(90deg, #013C5E 22%, #7AD4D1 71%);
+    width: screen;
+    height: 800px; 
+    }
+    
+    h1{
+        color: #004A75;
+        font-size: 40px;
+        font-family: "Segoe UI", sans-serif;
+        margin-left: 10%;
+        font-weight: 700;
+    }
+
+
+    h2{
+        color: #004A75;
+        font-size: 30px;
+        margin-left: 10%;
+        font-family: "Segoe UI", sans-serif;
+        font-weight: 700;
+    }
+
+    .p1{
+        margin-top: 10%;
+        color: #FFFFFFDB;
+        width: 30%;
+        margin-left: 10%;
+        font-family: "Segoe UI", sans-serif;
+    }
+
+    .p2{
+        color: #FFFFFFDB;
+        width: 30%;
+        margin-left: 10%;
+        font-family: "Segoe UI", sans-serif;
+    }
+
+    .p3{
+        margin-top: 2%;
+        margin-left: 10%;
+        font-family: "Segoe UI", sans-serif;
+        width: 35%;
+        color: #FFFFFFDB;
+    }
+    
+
+
+    :host ::ng-deep .p-dropdown-label{
+        color: #004a75;
+        font-family: "Segoe UI", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    :host ::ng-deep .p-dropdown-items-wrapper{
+        max-height: 400px !important;
+    }
+    
+    :host ::ng-deep .p-dropdown{
+        left: 10%;
+        top: 15%;
+        border-radius: 25px;
+        width: 30%;
+    }
+    
+    :host ::ng-deep .p-dropdown-panel .p-dropdown-items{
+        background: #004a75;
+    }
+
+    .divicone{
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .pertec{
+        margin-left: 10%;
+    }
+
+    .p4{
+        color: #707070;
+        font-family: "Segoe UI", Sans-serif;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+
+    .p5{
+        color: #707070;
+        font-family: "Segoe UI", Sans-serif;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .p6{
+        color: #707070;
+        font-family: "Segoe UI", Sans-serif;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .p7{
+            color: #707070;
+            font-family: "Segoe UI", Sans-serif;
+            width: 80%;
+            margin-left: 10%;
+    }
+
+    
+    .p8{
+        color: #707070;
+        font-family: "Segoe UI", Sans-serif;
+        width: 80%;
+        margin-left: 10%;
+}
+
+
+.p9{
+    color: #707070;
+    font-family: "Segoe UI", Sans-serif;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.p10{
+    color: #707070;
+    font-family: "Segoe UI", Sans-serif;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.p11{
+    color: #707070;
+    font-family: "Segoe UI", Sans-serif;
+    width: 80%;
+    margin-left: 10%;
+}
+
+    h2{
+        font-size: 25px;
+    }
+
+    .gliaccordion{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+
+    :host ::ng-deep .gliaccordion .p-accordion .p-accordion-header .p-accordion-header-link{
+        color: #004A75;
+     }
+
+    .riquadroazzurro2{
+        margin-top: 2%;
+        height: 800px;
+        width: screen;
+        background-image: linear-gradient(90deg, #7AD4D1 0%, #004A75 58%);
+    }
+    
+
+    .sinistra h1{
+        color: white;
+        font-size: 25px;
+        font-family: "Segoe UI", sans-serif;
+        margin-left: 10%;
+        font-weight: 500;
+}
+
+.destra h1{
+    color: white;
+    font-size: 25px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 500;
+    margin-left: 0%;
+}
+
+:host ::ng-deep .p-accordion .p-accordion-header .p-accordion-header-link{
+    background: rgb(0, 0, 0, 0%);
+    border: none;
+    color: white;
+}
+
+
+:host ::ng-deep .p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link{
+    width: 40%;
+}
+
+:host ::ng-deep .p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link{
+    width: 40%;
+}
+
+:host ::ng-deep .p-accordion .p-accordion-content{
+    width: 40%;
+}
+
+:host ::ng-deep .p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link{
+    width: 40%;
+}
+
+:host ::ng-deep .p-accordion .p-accordion-header .p-accordion-header-link{
+    width: 40%;
+}
+
+
+.destra{
+    margin-left: -40%;
+}
+
+
+.bottone{
+    background: #7ad4d1;
+    border-radius: 25px;
+    width: fit-content;
+    height: 30px;
+    font-size: 17px;
+}
+
+
+
+.primaimmagineasinistra{
+    width: 50px;
+    height: 50px;
+}
+
+.secondaimmagineasinistra{
+    width: 50px;
+    height: 50px;
+}
+
+.terzaimmagineasinistra{
+    width: 50px;
+    height: 50px;
+}
+
+.quartaimmagineasinistra{
+    width: 50px;
+    height: 50px;
+}
+
+.quintaimmagineasinistra{
+    width: 50px;
+    height: 50px;
+}
+
+.sestaimmagineasinistra{
+    width: 50px;
+    height: 50px; 
+}
+
+
+.uno{
+    margin-left: 10%;
+}
+
+.due{
+    margin-left: 10%;
+}
+
+.tre{
+    margin-left: 10%;
+}
+
+.quattro{
+    margin-left: 10%;
+}
+
+.cinque{
+    margin-left: 10%;
+}
+
+h3{
+    margin-left: 10%;
+    color: #2E2655;
+    font-family: "Segoe UI", sans-serif;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight{
+    background: none;
+ }
+
+ :host ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item{
+    color: white;
+}
+
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover{
+    color: white;
+    background: #075583;
+}
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav{
+    background: transparent;
+}
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    background: transparent;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    background: transparent;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-panels{
+    background: transparent;
+    color: white;
+}

@@ -1,0 +1,66 @@
+
+<div class="riquadroverde">
+
+    <p-dropdown class="drop" [options]="options" [(ngModel)]="selectedOption" optionLabel="name"></p-dropdown>
+
+    <p class="p1">Negli ultimi anni sta assumendo sempre maggiore rilevanza il tema della sicurezza informatica o cybersecurity, cioè quell’insieme di azioni, strumenti e regole atte a difendere le informazioni sensibili di un’azienda da attacchi sia interni che esterni.
+        Ogni organizzazione dovrebbe strutturare una serie di attività e strumenti al fine di tutelare il sistema informatico, dai pc alla rete, dai server ai dispositivi mobili, ed i dati in essi contenuti.</p>
+
+    <p class="p2">Le soluzioni di sicurezza informartica nascono proprio con lo scopo principale di identificare e bloccare gli attacchi ai sistemi aziendali: tali attacchi possono  distruggere o rubare informazioni sensibili o di alto valore per l’organizzazione, accedendo senza autorizzazione all’infrastruttura informatica.
+        Una strategia di protezione dei dati organica e coerente prevede la coestistenza di antivirus ed antispam, ma anche di un sistema di gestione delle password, un’adeguata protezione del perimetro della rete tramite firewall/UTM e connessioni VPN criptate.</p>
+
+
+
+    <div class="divicone flex">
+
+        <p-tabView>
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine antivirus" [immagine]="'../../assets/images/icon-antivirusFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Antivirus'"></app-icone>
+            </p-tabPanel>
+           
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-antispamFinal.svg'"></app-icone>
+                    
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Antispam'"></app-icone>
+            </p-tabPanel>
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-pswFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Password'"></app-icone>
+            </p-tabPanel>
+           
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-firewallFinal.svg'"></app-icone>
+                    
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'UTM/Firewall'"></app-icone>
+            </p-tabPanel>
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-vpnFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'VPN'"></app-icone>
+            </p-tabPanel>
+           
+    
+    
+        </p-tabView>
+    
+    
+    </div>
+
+</div>

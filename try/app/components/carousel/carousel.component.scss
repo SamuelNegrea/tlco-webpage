@@ -1,0 +1,19 @@
+.carousel{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+
+.immagine{
+    width: 80%;
+}
+
+:host ::ng-deep .carousel{
+.p-carousel-prev{
+    margin-left: -5%;
+    position: absolute;
+}
+}
+

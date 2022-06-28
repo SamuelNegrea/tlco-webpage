@@ -1,0 +1,102 @@
+.pulsantiebar{
+    position: absolute;
+    margin-top: -6%;
+    margin-right: 2%;
+}
+
+.search-container{
+    width: 280px;
+}
+
+.pulsante {
+    margin-top: 1%;
+   float: right;
+    height: 35px;
+    width: 170px;
+    background-color: #2E2655;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 10.5px;
+    margin-right: 5px;
+
+}
+
+.secondo_pulsante {
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 35px;
+    width: 170px;
+    background-color: #AAC711;
+    color: black;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12.5px;
+    margin-right: 10px;
+}
+
+
+// .topnav .search-container button {
+//     float: right;
+//     margin-top: -12%;
+//     background-color: #27214F;
+//     border: none;
+//     cursor: pointer;
+//     width: 60px;
+//     height: 35px;
+//     margin-top: 0.5%;
+//     margin-left: -15%;
+// }
+
+// .topnav .search-container {
+//    /* margin-left: 68%;*/
+//     margin-top: 6%;
+// }
+
+
+
+// .topnav input[type=text] {
+//     font-size: 25px;
+//     border-radius: 25px;
+// }
+
+.form-outline{
+    width: 80%;
+    border: 1px solid;
+}
+
+.bottone{
+    background-color: #2E2655;
+    border-radius: 100px;
+}
+
+.testouno{
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.assistenza{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.pulsanti{
+    margin-top: 4%;
+}
+
+.input-group{
+    margin-top: -6%;
+}
+
+
+:host ::ng-deep .p-inputgroup-addon{
+    border-radius: 0 25px 25px 0;
+    background-color: #2E2655;
+    color: white;
+    margin-top: -15px;
+}
+
+
+:host ::ng-deep .p-inputtext .p-component .p-element{
+
+border-radius: 25px 0 0 25px;
+
+}

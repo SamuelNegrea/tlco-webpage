@@ -1,0 +1,985 @@
+:host ::ng-deep .numero1{
+
+
+    .header{
+        height: 100%;
+    }
+}
+
+/*.cardnews{
+    height: 100px;
+}*/
+
+
+
+
+
+
+:host ::ng-deep .carousel2{
+    .p-carousel-prev{
+        margin-left: 2%;
+        position: absolute;
+    }
+}
+
+:host ::ng-deep .carousel2{
+    .p-carousel-next{
+       margin-left: 88%;
+       position: absolute;
+    }
+}
+
+// :host ::ng-deep .carousel1{
+//  .p-carousel .p-component .p-carousel-horizontal .p-carousel-content .p-carousel-container{
+//      width: 80%;
+//  }
+// }
+
+.oreformazione{
+    margin-top: -65px;
+}
+
+.carousel{
+    display: none;
+}
+
+.carousel1{
+    width: 93%;
+    margin-left: 3%;
+}
+
+.card {
+    margin-top: 150px;
+    margin-left: 5%;
+}
+
+
+.divisore2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.divisore3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.certificato {
+    margin-top: 13%;
+    margin-left: 40%;
+    padding: 10px;
+
+}
+
+@media screen and (min-width: 1500px) and (max-width: 2000px) {
+    .riquadri {
+        margin-left:25%;
+        margin-top: 5%;
+    }
+}
+
+
+
+.sotto_certificato {
+    margin-left: 28%;
+
+    padding-left: 50px;
+    width: 450px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Segoe UI", Sans-serif;
+    color: #2E2655;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: "Segoe UI", Sans-serif;
+    color: #2E2655;
+}
+
+
+
+
+.riquadro1 {
+    height: 200px;
+    width: 130px;
+    background-color: #2E2655;
+    border-radius: 15%;
+ 
+}
+
+.riquadro2 {
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 200px;
+    width: 130px;
+    background-color: #2E2655;
+    border-radius: 15%;
+
+}
+
+
+.riquadro3 {
+  
+    margin-left: 20px;
+    height: 200px;
+    width: 130px;
+    background-color: #2E2655;
+    border-radius: 15%;
+ 
+}
+
+
+.riquadro4 {
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 200px;
+    width: 130px;
+    background-color: #2E2655;
+    border-radius: 15%;
+
+}
+
+
+.riquadro5 {
+  
+    margin-top: -30px;
+    height: 200px;
+    width: 130px;
+    background-color: #2E2655;
+    border-radius: 15%;
+
+}
+
+.riquadro6 {
+
+    margin-left: 20px;
+    height: 200px;
+    width: 130px;
+    background-color: #2E2655;
+    border-radius: 15%;
+
+}
+
+
+.riquadro7 {
+    margin-top: -30px;
+    margin-left: 20px;
+    height: 200px;
+    width: 130px;
+    background-color: #2E2655;
+    border-radius: 15%;
+
+}
+
+
+.riquadro8 {
+
+    margin-left: 20px;
+    height: 200px;
+    width: 130px;
+    background-color: #2E2655;
+    border-radius: 15%;
+
+}
+
+.contenitoreriquadri{
+    flex-direction: row;
+}
+
+
+.widget1 {
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.widget2 {
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.widget3 {
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.widget4 {
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+.widget5 {
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.widget6 {
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.widget7 {
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.widget8 {
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+h3 {
+    font-size: 40px;
+    margin-left: 35%;
+    margin-top: 0%;
+    color: white;
+    font-family: "Segoe UI", Sans-serif;
+    font-weight: 500;
+}
+
+h4 {
+    margin-top: -30%;
+    margin-left: 20%;
+    color: white;
+}
+
+h5 {
+    font-size: 40px;
+    margin-left: 25%;
+    margin-top: 0%;
+    color: white;
+    font-family: "Segoe UI", Sans-serif;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 12px;
+    margin-top: -45%;
+    margin-left: 20%;
+    color: white;
+}
+
+
+.tecnicicertificati {
+    font-size: 12px;
+}
+
+.newseavvisi {
+    font-size: 25px;
+    margin-left: 3.5%;
+    color: #2E2655;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Sans-serif;
+}
+
+
+.newseavvisicard{
+    margin-left: -15.5%;
+}
+
+.spazio{
+    justify-content: space-between;
+}
+
+.numerouno {
+
+    // width: 500px;
+    img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.numerodue {
+    
+    img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.numerotre {
+    img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.testouno {
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+
+.testouno_2 {
+    color: #777;
+    font-size: 14px;
+   
+}
+
+
+
+.bottone1 {
+    background-color: rgb(148, 231, 24);
+    height: 35px;
+    border: none;
+    justify-content: space-between;
+}
+
+.bottone1:hover {
+    background: rgb(148, 231, 24) !important;
+}
+
+.bottone2 {
+    background-color: rgb(64, 220, 231);
+    height: 35px;
+    border: none;
+    justify-content: space-between;
+}
+
+.bottone2:hover {
+    background: rgb(64, 220, 231) !important;
+}
+
+.bottone3 {
+    background-color: rgb(240, 224, 6);
+    height: 35px;
+    border: none;
+    justify-content: space-between;
+}
+
+.bottone3:hover {
+    background: rgb(240, 224, 6) !important;
+}
+
+
+.immagini {
+    height: 300px;
+    width: 10px;
+    margin-top: 40px;
+}
+
+.immagine {
+    width: 100px;
+}
+
+.imm{
+    cursor: pointer;
+}
+
+
+.certificazioni {
+    font-size: 25px;
+    margin-left: 3.5%;
+    color: #2E2655;
+    margin-top: 230px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Sans-serif;
+}
+
+
+.pcard1 {
+    margin-left: 15%;
+    border-radius: 15px;
+    width: 27%;
+}
+
+.pcard1:hover {
+    box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
+}
+
+.pcard2 {
+    margin-left: 1%;
+    border-radius: 15px;
+    width: 27%;
+}
+
+.pcard2:hover {
+    box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
+}
+
+.pcard3 {
+    margin-left: 1%;
+    border-radius: 15px;
+    width: 27%;
+}
+
+.pcard3:hover {
+    box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
+}
+
+
+:host ::ng-deep .pcard1 {
+    height: 395px;
+    .p-card-body {
+        padding: 0;
+    }
+    .p-card-content {
+        padding: 0;
+    }
+}
+
+:host ::ng-deep .pcard2 {
+    height: 395px;
+    .p-card-body {
+        padding: 0;
+    }
+    .p-card-content {
+        padding: 0;
+    }
+}
+
+
+:host ::ng-deep .pcard3 {
+    height: 395px;
+    .p-card-body {
+        padding: 0;
+       
+    }
+    .p-card-content {
+        padding: 0;
+    }
+}
+
+
+.padding{
+    padding: 2%;
+}
+
+
+
+.mobile{
+    display:none;
+}
+
+
+@media screen and (min-width: 880px) and (max-width: 1500px) {
+
+
+.certificato{
+    margin-top: 300px;
+}
+}
+
+@media screen and (max-width: 1500px) {
+
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display:block;
+
+}
+
+
+.padding{
+    padding: 3%;
+}
+
+.certificato{
+    margin-left:35%;
+}
+
+.dimensionicard1{
+    width: 40%;
+    margin-left: 30%;
+
+}
+
+.dimensionicard2{
+    width: 40%;
+    margin-left: 30%;
+
+}
+
+.dimensionicard3{
+    width: 40%;
+    margin-left: 30%;
+
+}
+
+.pcard1:hover {
+    box-shadow:none;
+}
+
+.pcard2:hover {
+    box-shadow:none;
+}
+
+.pcard3:hover {
+    box-shadow:none;
+}
+
+.carousel{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.carousel{
+    .p-ripple .p-element .p-carousel-prev .p-link{
+        margin-left: -10%;
+    }
+}
+
+.certificazioni{
+    margin-left: 12%;
+}
+
+.spazio{
+    justify-content: space-between;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+
+    .mobile{
+        display: block;
+    }
+
+    .marginecertificato{
+        margin-left: 7%;
+    }
+
+    .riquadri {
+        margin-left:30%;
+        margin-top: 5%;
+    }
+
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .riquadri {
+        margin-left:22%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+    .riquadri {
+        margin-left:18%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+
+
+
+.riquadri{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.dimensionicard1{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.dimensionicard2{
+    width: 40%;
+    margin-left: 30%;
+
+}
+
+.dimensionicard3{
+    width: 40%;
+    margin-left: 30%;
+
+}
+
+}
+
+.carousel3{
+    display:none;
+}
+
+.carousel2{
+    display: none;
+}
+
+
+:host ::ng-deep .carousel2 .p-carousel-items-container{
+    margin-left: 150px;
+}
+
+@media screen and (min-width: 850px) and (max-width: 1200px) {
+    .dimensionicard1{
+        width: 60%;
+        margin-left: 15%;
+    
+    }
+    
+    .dimensionicard2{
+        width: 60%;
+        margin-left: 15%;
+    
+    }
+    
+    .dimensionicard3{
+        width: 60%;
+        margin-left: 15%;
+    
+
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px) {
+    .dimensionicard1{
+        width: 70%;
+        margin-left: 15%;
+    
+    }
+    
+    .dimensionicard2{
+        width: 70%;
+        margin-left: 15%;
+    
+    }
+    
+    .dimensionicard3{
+        width: 70%;
+        margin-left: 15%;
+    
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dimensionicard1{
+        width: 95%;
+        margin-left: 2%;
+    
+    }
+    
+    .dimensionicard2{
+        width: 95%;
+        margin-left: 2%;
+    
+    }
+    
+    .dimensionicard3{
+        width: 95%;
+        margin-left: 2%;
+    
+
+    }
+
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    .sotto_certificato {
+        width: 350px;
+    }
+
+    .carousel2{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: block;
+
+    }
+
+    
+
+    .carousel1{
+        display:none;
+    }
+
+    .riquadri{
+        margin-left: 4%;
+    }
+
+    .dimensionicard1{
+        width: 60%;
+        margin-left: 25%;
+    
+    }
+    
+    .dimensionicard2{
+        width: 60%;
+        margin-left: 25%;
+    
+    }
+    
+    .dimensionicard3{
+        width: 60%;
+        margin-left: 25%;
+    
+
+    }
+
+    .carousel{
+        display: none;
+    }
+
+   
+
+}
+
+
+
+
+@media screen and (max-width: 430px) {
+
+    .dimensionicard1{
+        width: 80%;
+        margin-left: 10%;
+    
+    }
+    
+    .dimensionicard2{
+        width: 80%;
+        margin-left: 10%;
+    
+    }
+    
+    .dimensionicard3{
+        width: 80%;
+        margin-left: 10%;
+    
+
+    }
+
+    .bottone1 {
+        background-color: rgb(148, 231, 24);
+        height: 35px;
+        border: none;
+        margin-left: -10%;
+    }
+
+    .bottone2 {
+            background-color: rgb(64, 220, 231);
+            height: 35px;
+            border: none;
+            margin-left: 18%;
+    }
+
+
+    .bottone3 {
+        background-color: rgb(240, 224, 6);
+        height: 35px;
+        border: none;
+        margin-left: 20%;
+    }
+
+
+.carousel3{
+display: block;
+}
+
+.carousel2{
+    display: none;
+}
+
+
+}
+
+.riquadri2{
+    display: none;
+}
+
+
+@media screen and (max-width: 580px) {
+
+    .certificato{
+        margin-left: 20%;
+        margin-top: 35%;
+    }
+
+   
+
+    .sotto_certificato{
+        margin-left:10%;
+        margin-right: 10%;
+        h2{
+            font-size: 30px;
+        }
+    }
+
+    .riquadri{
+        display: none;
+    }
+
+    .riquadri2{
+        display: block;
+        margin-top: 5%;
+        margin-left: 20%;
+        padding-right: 5%;
+    }
+
+    .riquadro1{
+        width: 150px;
+        height: 200px;
+    }
+
+    .riquadro3{
+        margin-left: 0px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .riquadro4{
+        margin-left: 20px;
+    }
+
+    .riquadro5{
+        width: 150px;
+        height: 200px;
+       
+    }
+    .riquadro6{
+        margin-top: -30px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .riquadro7{
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .riquadro8{
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 150px;
+        height: 200px;
+        h6{
+            margin-left: 50px;
+        }
+    }
+
+    .riquadro2{
+        margin-top: -1px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .riquadro4{
+        margin-top: 0px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .widget1{
+        margin-top: 10px;
+    }
+
+    .widget2{
+        margin-top: 10px;
+    }
+
+    .widget3{
+        margin-top: 10px;
+    }
+
+    .widget4{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .widget5{
+        margin-top: 10px;
+    }
+
+    .widget6{
+        margin-top: 10px;
+    }
+
+    .widget7{
+        margin-top: 10px;
+    }
+
+    .widget8{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+h4{
+    margin-top: -40px;
+    text-align: center;
+    margin-left: -5px;
+}
+h6{
+    margin-top: -55px;
+}
+}
+
+
+@media screen and (max-width: 370px) {
+
+    .riquadri2{
+        margin-left: 2%;
+        padding-right: 2%;
+    }
+
+    .riquadro1{
+        width: 150px;
+        height: 180px;
+    }
+
+    .sotto_certificato{
+
+        h1{
+            font-size: 20px;
+        }
+
+        h2{
+            font-size: 15px;
+        }
+    }
+
+    .marginecertificato{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+}
+
+
+@media screen and (max-width: 300px) {
+    .carousel3{
+        display: block;
+    }
+    .carousel2{
+        display: none;
+    }
+}
+
+.card-icona {
+    height: 100px;
+
+}
+
+.ore-formazione{
+    height: 70px;
+}
+
+.tecnici{
+    height: 100px;
+}
+
+.gestione{
+    height: 100px;
+}
+
+.nazionalita{
+    height: 100px;
+}
+
+
+.eta{
+    height: 100px;
+}
+

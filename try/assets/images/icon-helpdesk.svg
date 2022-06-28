@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="94" viewBox="0 0 95 94">
+  <g id="Raggruppa_723" data-name="Raggruppa 723" transform="translate(-315 -761)">
+    <ellipse id="Ellisse_264" data-name="Ellisse 264" cx="47.5" cy="47" rx="47.5" ry="47" transform="translate(315 761)" fill="#fff"/>
+    <g id="Ellisse_273" data-name="Ellisse 273" transform="translate(323 769)" fill="none" stroke="#004a75" stroke-width="3">
+      <circle cx="39" cy="39" r="39" stroke="none"/>
+      <circle cx="39" cy="39" r="37.5" fill="none"/>
+    </g>
+    <path id="Tracciato_680" data-name="Tracciato 680" d="M21.754,45.26c12.014,0,21.754-10.132,21.754-22.63S33.768,0,21.754,0,0,10.132,0,22.63" transform="translate(339.815 782.742)" fill="none" stroke="#004a75" stroke-linecap="round" stroke-width="2"/>
+    <g id="Ellisse_292" data-name="Ellisse 292" transform="translate(350.606 792.863)" fill="none" stroke="#004a75" stroke-width="2">
+      <ellipse cx="10.963" cy="10.963" rx="10.963" ry="10.963" stroke="none"/>
+      <ellipse cx="10.963" cy="10.963" rx="9.963" ry="9.963" fill="none"/>
+    </g>
+    <path id="Tracciato_689" data-name="Tracciato 689" d="M23.016,45.26A22.825,22.825,0,0,0,46.031,22.63,22.825,22.825,0,0,0,23.016,0,22.825,22.825,0,0,0,0,22.63" transform="translate(339.815 782.742)" fill="none" stroke="#004a75" stroke-linecap="round" stroke-width="2"/>
+    <g id="Rettangolo_216" data-name="Rettangolo 216" transform="translate(378.233 796.685)" fill="#fff" stroke="#004a75" stroke-width="2">
+      <rect width="11.32" height="19.605" rx="5.66" stroke="none"/>
+      <rect x="1" y="1" width="9.32" height="17.605" rx="4.66" fill="none"/>
+    </g>
+    <g id="Rettangolo_217" data-name="Rettangolo 217" transform="translate(383.28 799.037)" fill="#fff" stroke="#004a75" stroke-width="2">
+      <rect width="7.058" height="14.9" rx="3.529" stroke="none"/>
+      <rect x="1" y="1" width="5.058" height="12.9" rx="2.529" fill="none"/>
+    </g>
+    <g id="Rettangolo_219" data-name="Rettangolo 219" transform="translate(337.013 797.922)" fill="#fff" stroke="#004a75" stroke-width="2">
+      <rect width="7.058" height="14.9" rx="3.529" stroke="none"/>
+      <rect x="1" y="1" width="5.058" height="12.9" rx="2.529" fill="none"/>
+    </g>
+    <g id="Ellisse_288" data-name="Ellisse 288" transform="translate(354.265 822.39)" fill="#fff" stroke="#004a75" stroke-width="2">
+      <circle cx="5.489" cy="5.489" r="5.489" stroke="none"/>
+      <circle cx="5.489" cy="5.489" r="4.489" fill="none"/>
+    </g>
+    <text id="H" transform="translate(355 809)" fill="#004a75" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">H</tspan></text>
+    <g id="Ellisse_293" data-name="Ellisse 293" transform="translate(347.469 789.727)" fill="none" stroke="#004a75" stroke-width="2">
+      <ellipse cx="14.1" cy="14.1" rx="14.1" ry="14.1" stroke="none"/>
+      <ellipse cx="14.1" cy="14.1" rx="13.1" ry="13.1" fill="none"/>
+    </g>
+  </g>
+</svg>

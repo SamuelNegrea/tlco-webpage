@@ -1,0 +1,227 @@
+<div class="riquadroazzurro">
+
+    <!-- <select name="selezionatore" id="selezionatore" class="selezionatore">
+        <option value="servizi"><p class="paragrafozero">Servizi sistemistici</p></option>
+        <option value="gestione">Gestione infrastrutture</option>
+        <option value="supporto">Supporto a IT</option>
+        <option value="sviluppo">Sviluppo software</option>
+        <option value="finanziamenti">Finanziamenti</option>
+        <option value="formazione">Formazione</option>
+      </select> -->
+
+       <p-dropdown class="drop" [options]="options" [(ngModel)]="selectedOption" optionLabel="name"></p-dropdown>
+      
+      <p class="p1">I servizi sistemistici consistono in tutte quelle attività di supporto alla gestione delle infrastrutture informatiche in azienda.
+        Questa tipologia di servizi è solitamente gestita dal nostro team di esperti, ogni giorno al fianco delle aziende per garantire continuità ed un corretto funzionamento dei sistemi informatici delle imprese che si affidano a noi.</p>
+
+        <p class="p2">Così facendo, le imprese sono sgravate da quelle attività sistemistiche quotidiane, a volte necessarie  ma spesso dimenticate o rimandate, e potendo così concentrarsi sul proprio core business e ottenere una gestione più razionale e sicura degli apparati informatici, oltre che un generale contenimento dei costi.</p>
+
+
+        <div class="divicone flex">
+
+
+
+
+          <p-tabView>
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-helpdesk.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Help Desk'"></app-icone>
+            </p-tabPanel>
+
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-presidio.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Presidio e manutenzione'"></app-icone>
+            </p-tabPanel>
+
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-gdprWebFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Vulnerability Assessment'"></app-icone>
+            </p-tabPanel>
+
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-businessFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Prevenzione'"></app-icone>
+            </p-tabPanel>
+
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                  <app-icone [immagine]="'../../assets/images/icon-recuperoDatiFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone [titolo]="'Recupero dati'"></app-icone>
+            </p-tabPanel>
+
+        </p-tabView>   
+
+        </div>
+      </div>
+
+
+
+<h1>Un Help desk sempre al tuo fianco</h1>
+
+<p class="p3">Le <strong>piccole</strong> e <strong>medie imprese</strong> spesso non possono dedicare <strong>personale specializzato</strong> per <strong>assistere</strong> gli <strong>utenti</strong> rispetto alle <strong>sempre più numerose esigenze e problematiche informatiche</strong>.</p>
+
+<p class="p4">Da ciò consegue che quando <strong>gli utenti incontrano un problema sul PC</strong> o sui dispositivi informatici, spesso <strong>si trovano bloccati o comunque condizionati</strong> nella normale operatività: questo genera disservizi e perdite di produttività, che è difficile quantificare.</p>
+
+<h2>IL NOSTRO SERVIZIO</h2>
+
+<p class="p5">Il nostro servizio di Help Desk in outsourcing nasce proprio per dare una <strong>risposta immediata agli utenti di un’azienda</strong>, offrendo <strong>supporto tecnico continuo</strong>: questo servizio è rivolto proprio a quelle imprese che non vogliono assumere personale specializzato a tempo pieno, ma ritengono fondamentale avere un’<strong>assistenza  IT sempre efficiente e proattiva</strong>.</p>
+
+<p class="p6">Il nostro servizio di Help Desk è gestito da <strong>personale certificato</strong> e fornisce assistenza telefonica in tempi rapidi per risolvere le problematiche più comuni, come ad esempio quelle sui <strong>personal computer</strong> da ufficio (Windows, Mac ecc.), <strong>apparati di rete, connettività</strong> e <strong>sicurezza</strong> (Firewall, Access Point ecc.), <strong>hosting</strong>, gestione <strong>domini</strong> e <strong>posta elettronica, sistemi di comunicazione</strong>.</p>
+
+<p class="p7">A completezza del servizio, con cadenza periodica vengono condivisi ai responsabili aziendali i <strong>report con tutte le attività svolte</strong> per un controllo costante sul numero di chiamate e sulla  la qualità del servizio.</p>
+
+
+<div class="riquadroazzurro2">
+
+<div class="flex">
+<div class="sinistra">
+<h1>I NOSTRI VANTAGGI</h1>
+<br>
+
+<div class="flex uno">
+<img class="primaimmagineasinistra" src="../../../assets/images/Raggruppa-632.svg">
+<p-accordion>
+  <p-accordionTab header="COMPETENZE CERTIFICATE">
+  <p class="piccoloparagrafo">Tutte le nostre risorse tecniche hanno competenze certificate sui sistemi IT più diffusi e sono continuamente aggiornate con cicliche sessioni di formazione. Questo consente ai nostri clienti di delegare a noi la gestione delle problematiche IT che richiedono know how o addirittura certificazioni specifiche. Operando quotidianamente in realtà aziendali differenti, i nostri tecnici hanno le competenze ed un approccio proattivo in grado di portare valore, sicurezza e performance ad ogni tipologia di rete aziendale.</p> 
+  </p-accordionTab>
+</p-accordion>
+</div>
+
+
+<div class="flex due">
+  <img class="secondaimmagineasinistra" src="../../../assets/images/Raggruppa-628.svg">
+  <p-accordion>
+    <p-accordionTab header="CONTINUITA'">
+<p> Garantiamo alle aziende assistenza continuativa indipendentemente dai periodi di ferie, malattia e corsi di aggiornamento del nostro personale:
+non  contrattualizziamo infatti una singola risorsa, ma definiamo un pool di tecnici intercambiabili con competenze adeguate rispetto all’architettura ed alle configurazioni specifiche di ogni cliente. Interveniamo ove necessario per sostituzioni del personale dei nostri clienti, in caso di pensionamento o  fuoriuscita di una risorsa  IT. </p>
+</p-accordionTab>
+</p-accordion>
+</div>
+
+
+
+<div class="flex tre">
+  <img class="terzaimmagineasinistra" src="../../../assets/images/Raggruppa-631.svg">
+  <p-accordion>
+    <p-accordionTab header="DISPONIBILITA' QUOTIDIANA">
+<p>il nostro team di help desk, composto da  tecnici informatici, supporta quotidianamente i nostri clienti per ogni tipo necessità o problematica operativa. Nella stragrande maggioranza dei casi espletiamo le richieste nel giro di pochissimo tempo e da remoto. Grazie alla costante interoperatività tra help desk e pianificazione, se necessario organizziamo interventi presso i clienti per quelle criticità non risolvibili dalla nostra sede.  Maggiori dettagli qui: https://devtlco.tlco.info/assistenza-tecnica/</p> 
+</p-accordionTab>
+</p-accordion>
+</div>
+
+<div class="flex quattro">
+  <img class="quartaimmagineasinistra" src="../../../assets/images/Raggruppa-626.svg">
+  <p-accordion>
+    <p-accordionTab header="PREZZI FISSI E TRASPARENTI">
+<p>Nessuna spesa inaspettata: il nostro servizio è erogato a prezzo fisso e con supporto continuativo, con un canone mensile per ogni dispositivo supportato.</p>
+</p-accordionTab>
+</p-accordion>
+</div>
+
+<div class="flex cinque">
+  <img class="quintaimmagineasinistra" src="../../../assets/images/Raggruppa-635.svg">
+  <p-accordion>
+    <p-accordionTab header="RISOLUZIONE CERTA">
+<p>La competenza e l’esperienza del nostro supporto tecnico ci permette di risolvere le richieste dei nostri clienti al primo contatto, da remoto ed in pochi minuti nella maggior parte delle situazioni.
+  Questo ci consente di garantire l’operatività degli utenti aziendali, per una generale ottimizzazione dei costi; se necessario, organizziamo un intervento presso la sede dei clienti per quelle problematiche non gestibili dal nostro help desk remoto.</p>
+</p-accordionTab>
+</p-accordion>
+</div>
+
+<div class="flex sei">
+  <img class="sestaimmagineasinistra" src="../../../assets/images/Raggruppa-627.svg">
+  <p-accordion>
+    <p-accordionTab header="RISPARMIO">
+<p>I nostri servizi vengono erogati da tecnici qualificati e sempre aggiornati: i costi degli interventi vengono addebitati solo per le attività effettivamente svolte e con la certezza della risoluzione di ogni problematica nel più breve tempo possibile. Il vero vantaggio sta nel poter contare sul nostro personale informatico certificato, senza i costi accessori di un dipendente, come ferie, malattia e soprattutto la formazione costante che garantiamo al nostro team.</p>
+</p-accordionTab>
+</p-accordion>
+</div>
+</div>
+
+<div class="destra">
+  <h1>AREE DI INTERVENTO</h1>
+  <br>
+
+
+  <p-accordion>
+    <p-accordionTab header="POSTAZIONI DI LAVORO">
+      <p>Siamo a tua disposizione per una consulenza sugli strumenti di lavoro: postazioni PC Windows e Apple Mac e dispositivi Mobili Android o Apple iOS.</p>
+      <button class="bottone">Scopri di più</button>  
+    </p-accordionTab>
+  </p-accordion>
+  
+
+  <p-accordion>
+    <p-accordionTab header="BACKUP E DISASTER RECOVERY">
+<p>Sappiamo che i dati informatici sono sempre più a rischio e occorre fare il necessario per proteggerli e per consentire la continuità operativa all’azienda.</p>
+<button class="bottone">Scopri di più</button>  
+</p-accordionTab>
+</p-accordion>
+
+
+<p-accordion>
+  <p-accordionTab header="MAIL E PEC">
+    <p>Le caselle di posta elettronica sono uno strumento essenziale di comunicazione interna verso gli altri colleghi, che per quella verso l’esterno, per gli ordinari scambi con partner, clienti, fornitori, collaboratori.</p>
+    <button class="bottone">Scopri di più</button>  
+  </p-accordionTab>
+</p-accordion>
+
+
+<p-accordion>
+  <p-accordionTab header="HOSTING E DOMINI">
+    <p>Il dominio oggi rappresenta uno dei pilastri fondamentali dell’azienda ed è parte integrante dell’identità e dell’immagine dell’azienda.</p>
+    <button class="bottone">Scopri di più</button>  
+  </p-accordionTab>
+</p-accordion>
+
+
+<p-accordion>
+  <p-accordionTab header="CENTRALINI VOIP E MICROSOFT PHONE SYSTEM">
+<p>Negli ultimi anni il nostro modo di lavorare è cambiato profondamente e  si è manifestata l’esigenza di strumenti di lavoro più flessibili, multipiattaforma ed efficienti.</p>
+<button class="bottone">Scopri di più</button>
+</p-accordionTab>
+</p-accordion>
+
+
+
+<p-accordion>
+  <p-accordionTab header="INTERNET E TELEFONIA">
+<p>Supportiamo le aziende nella scelta del provider migliore, con il giusto rapporto qualità/prezzo e per creare le condizioni necessarie per garantire la business continuity,</p>
+<button class="bottone">Scopri di più</button>
+</p-accordionTab>
+</p-accordion>
+
+
+
+</div>
+</div>
+</div>
+
+<h3>Certificazioni</h3>
+<div class="car">
+<app-carousel></app-carousel>
+</div>
+
+

@@ -1,0 +1,64 @@
+
+<div class="riquadroverde">
+
+    <p-dropdown class="drop" [options]="options" [(ngModel)]="selectedOption" optionLabel="name"></p-dropdown>
+
+    <p class="p1">Siamo a tua disposizione per una consulenza sugli strumenti di lavoro: postazioni PC Windows e Apple Mac e dispositivi Mobili Android o Apple iOS che possiamo integrare tra loro e fornire tutto il supporto tecnico nel tempo.</p>
+
+    <p class="p2">Con la diffusione del lavoro in mobilità ed Agile (smart working) ci siamo specializzati nelle soluzioni di collaborazione, videoconferenza e apparecchiture da sala riunione, che consentono di semplificare il lavoro in team. </p>
+
+    <p class="p3">Possiamo inoltre consigliarti le migliori periferiche di stampa, sia di etichette per gli ambienti industriali, sia per l’ufficio e i reparti grafici.</p>
+
+    <div class="divicone flex">
+
+        <p-tabView>
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-antivirusFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Antivirus'"></app-icone>
+            </p-tabPanel>
+           
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-antispamFinal.svg'"></app-icone>
+                    
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Antispam'"></app-icone>
+            </p-tabPanel>
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-pswFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Password'"></app-icone>
+            </p-tabPanel>
+           
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-firewallFinal.svg'"></app-icone>
+                    
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'UTM/Firewall'"></app-icone>
+            </p-tabPanel>
+
+
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-vpnFinal.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'VPN'"></app-icone>
+            </p-tabPanel>
+           
+    
+    
+        </p-tabView>
+    
+    
+    </div>
+
+</div>

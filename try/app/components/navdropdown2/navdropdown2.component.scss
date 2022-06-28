@@ -1,0 +1,957 @@
+.soluzionidrop{
+    background-image: linear-gradient(90deg, #005E19 0%, #AAC711 100%);
+    position: absolute;
+    height: 550px;
+    width: 1950px;
+
+    .soluzioniside{
+        width: 25%;
+        margin-left: 45%;
+        margin-top: -12%;
+        font-weight: bolder;
+        font-family: "Segoe UI", Sans-serif;
+    }
+}
+
+.distanzah4{
+    margin-top: 5%;
+}
+
+
+h1{
+    padding-top: 2%;
+    font-size: 70px;
+    margin-left: 12%;
+    color:white;
+    font-family: "Segoe UI", Sans-serif;
+    font-weight: lighter;
+}
+
+h4{
+    font-size: 18px;
+    margin-left: 12%;
+    width: 25%;
+    color: white;
+    font-family: "Segoe UI", Sans-serif;
+    font-weight: lighter;
+}
+
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.serinf{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.serinf1{
+    display: none !important;
+}
+
+
+
+.serinf:hover{
+    .serinf1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -3%;
+    }
+
+    .server{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .server:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    .virtualizzazione{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .virtualizzazione:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    .iperconvergenza{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .iperconvergenza:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    .serverincloud{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .serverincloud:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+
+.backrec1{
+    display: none !important;
+}
+
+.backrec:hover{
+     .backrec1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -3%;
+    }
+
+
+
+    .backup{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .backup:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    .disaster{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .disaster:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.backrec{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.sic1{
+    display: none !important;
+}
+
+
+.sic:hover{
+   .sic1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -3%;
+    }
+
+
+    .antivirus{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .antivirus:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    .antispam{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .antispam:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .password{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .password:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    .utm{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .utm:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .vpn{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .vpn:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.sic{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.poslav1{
+    display: none !important;
+}
+
+
+.poslav:hover{
+    .poslav1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+
+
+    .pc{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .pc:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    .stazioni{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .stazioni:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    .mobile{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .mobile:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    .videoconferenza{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .videoconferenza:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    .stampanti{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .stampanti:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    
+    font-size: 30px;
+    opacity: 1;
+}
+
+.poslav{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.net1{
+    display: none !important;
+}
+
+
+.net:hover{
+     .net1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+
+
+    .retilan{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .retilan:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .certificazione{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .certificazione:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .retiwireless{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .retiwireless:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.net{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.tecno1{
+    display: none !important;
+}
+
+
+.tecno:hover{
+   .tecno1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -7%;
+    }
+
+    .licenze{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .licenze:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .migrazione{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .migrazione:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .formazione{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .formazione:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    .power{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .power:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .sharepoint{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .sharepoint:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .azure{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .azure:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .phonesystem{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .phonesystem:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.tecno{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.mailepec1{
+    display: none !important;
+}
+
+
+.mailepec:hover{
+     .mailepec1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+
+
+
+    .mail{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .mail:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .pec{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .pec:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .collaborazione{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .collaborazione.hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .invio{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .invio:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .archiviazione{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .archiviazione:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.mailepec{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.hosdom1{
+    display: none !important;
+}
+
+
+.hosdom:hover{
+   .hosdom1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -7%;
+    }
+
+
+
+    .domini{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .domini:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .certificati{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .certificati:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .hosting{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .hosting:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .servercloud2{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .servercloud2:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .gdpr{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .gdpr:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.hosdom{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.svisoft1{
+    display: none !important;
+}
+
+
+.svisoft:hover{
+     .svisoft1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -12%;
+    }
+
+    .sviluppoweb{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .sviluppoweb:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .sviluppoecommerce{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .sviluppoecommerce:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .sviluppoappmobile{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .sviluppoappmobile:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .softwarecustom{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .softwarecustom:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .intranet{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .intranet:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .seo{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .seo:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .gestionali{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .gestionali:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.svisoft{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+.intel1{
+    display: none !important;
+}
+
+
+.intel:hover{
+    .intel1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -3%;
+    }
+
+    .connettivita{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .connettivita:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .linee{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .linee:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.intel{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.centvoip1{
+    display: none !important;
+}
+
+
+.centvoip:hover{
+    .centvoip1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -3%;
+    }
+
+
+    .sistema{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .sistema:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .microsoft{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .microsoft:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.centvoip{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.prigdpr1{
+    display: none !important;
+}
+
+
+.prigdpr:hover{
+    .prigdpr1{
+        display: block !important;
+        position: absolute;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -3%;
+    }
+
+    .consulenza{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .consulenza:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .gdpr2{
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+
+    .gdpr2:hover{
+        font-size: 30px;
+        margin-top: 2%;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+
+
+    font-size: 30px;
+    opacity: 1;
+}
+
+.prigdpr{
+    transition: 0.2s;
+    opacity: 0.8;
+}

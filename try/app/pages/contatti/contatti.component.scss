@@ -1,0 +1,530 @@
+.riquadroviola{
+    height: 400px;
+    width: screen;
+    background-image: linear-gradient(90deg, #1E1B2C 0%, #5945BA 100%);
+}
+
+.mobile{
+    display: none;
+}
+
+h1{
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 10%;
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+label{
+margin-left: 10px;
+margin-top: -5px;
+}
+
+.checkflex{
+    margin-top: 1%;
+}
+
+
+.primap{
+    margin-left: 10%;
+    width: 70%;
+    color: white;
+    font-size: 17px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.secondap{
+    width: 40%;
+    margin-left: 10%;
+    color: white;
+    font-size: 17px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.ilform{
+    margin-left: 10%;
+    margin-top: 1.5%;
+}
+
+#company{
+    width: 430px;
+    border-radius: 25px;
+}
+
+#name{
+    width: 430px;
+    margin-left: 1%;
+    border-radius: 25px;
+}
+
+#surname{
+    width: 430px;
+    margin-left: 1%;
+    border-radius: 25px;
+}
+
+#role{
+    width: 430px;
+    border-radius: 25px;
+}
+
+
+#phone{
+    width: 430px;
+    margin-left: 1%;
+    border-radius: 25px;
+}
+
+.secondariga{
+    margin-top: 1%;
+}
+
+#textarea{
+    margin-top: 1%;
+    border-radius: 25px;
+}
+
+#privacy{
+    margin-left: 10%;
+}
+
+.bottone2{
+    margin-left: 20%;
+    background-color: #AAC711;
+    border-radius: 25px;
+    height: 30px;
+    width: 100px;
+}
+
+
+#uffici{
+    width: 100%;
+    background-color: #27214f;
+    color: white;
+    border-width: 0;
+}
+
+#email{
+    width: 430px;
+    margin-left: 1%;
+    border-radius: 25px;
+}
+
+
+.facebook_icon{
+    margin-left: 2%;
+}
+
+.linkedin_icon{
+    margin-left: 2%;
+}
+
+.twitter_icon{
+    margin-left: 2%;
+}
+
+h2{
+    margin-left: 10%;
+    margin-top: 3%;
+    font-family: "Segoe UI", sans-serif;
+    color: #2E2655;
+}
+
+p{
+    margin-left: 10%;
+
+}
+
+.posizione{
+    margin-left: 10%;
+    
+}
+
+.via{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.phone{
+    margin-left: 10%;
+}
+
+.textphone{
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.fax{
+    margin-left: 10%;
+}
+
+.testofax{
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.iconaposta{
+    margin-left: 10%;
+}
+
+.testoposta{
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+.riquadri{
+    margin-left: -1%;
+    justify-content: space-around;
+}
+
+.riquadroviola2{
+    height: 600px;
+    width: screen;
+    background-image: linear-gradient(90deg, #1E1B2C 0%, #5945BA 100%);
+}
+
+
+.orario{
+    margin-top: -25%;
+    margin-left: 18%;
+    width: 50px;
+    height: 50px;
+}
+
+.testoorario{
+    margin-left: 5%;
+    margin-top: -20%;
+    font-family: "Segoe UI", sans-serif;
+    color: #2E2655;
+}
+
+
+.testoorario2{
+    margin-left: 0%;
+    margin-top: -2%;
+    width: 300px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.lequattroicone{
+    
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.supporto{
+    width: 50px;
+    height: 50px;
+    margin-top: -10%;
+}
+
+.testosupporto{
+    margin-left: 5%;
+    font-family: "Segoe UI", sans-serif;
+    margin-top: -10%;
+    color: #2E2655;
+}
+.sinistra{
+    margin-left: -8%;
+    margin-top: 1%;
+}
+.supportotecnico{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+p{
+    margin-top: 1%;
+    font-family: "Segoe UI", sans-serif;
+    color: #2E2655;
+}
+.h1grigio{
+    margin-top: -2%;
+    color: #707070;
+    font-family: "Segoe UI", sans-serif;
+    margin-bottom: 20px;
+}
+.mappa{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.iconapec{
+    margin-left: 10%;
+    width: 80px;
+    height: 80px;
+    margin-top: -5%;
+}
+
+.testopec{
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.iconadestinatario{
+    margin-left: 10%;
+}
+
+
+.testodestinatario{
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+h3{
+    font-family: "Segoe UI", sans-serif;
+    margin-left: 10%;
+    font-weight: 500;
+    color: #2E2655;
+}
+
+.bottone{
+    color: white;
+    background-color: #27214f;
+    margin-left: 3.5%;
+    border-radius: 25px;
+    width: 24%;
+    height: 40px;
+    margin-top: 0%;
+}
+
+@media screen and (max-width: 1500px) {
+.mobile{
+    display: block;
+}
+
+
+.bottone{
+    width: 200px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+}
+
+.checkflex{
+    width: 60%;
+}
+
+#newsletter{
+    margin-top: 20px;
+}
+
+#privacy{
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+
+.bottone2{
+    margin-top: 20px;
+}
+
+#company{
+    border-radius: 25px;
+    width: 300px;
+}
+
+#name{
+    margin-left: -1px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#surname{
+    margin-left: -1px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#role{
+    width: 250px;
+    border-radius: 25px;
+}
+
+
+#phone{
+    margin-left: -1px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.secondariga{
+    margin-top: 1%;
+}
+
+#textarea{
+    width: 250px;
+    margin-top: 1%;
+    border-radius: 25px;
+}
+
+
+
+
+
+.bottone2{
+    margin-left: 200px;
+    background-color: #AAC711;
+    border-radius: 25px;
+    height: 30px;
+    width: 100px;
+}
+
+
+#uffici{
+    width: 100%;
+    background-color: #27214f;
+    color: white;
+    border-width: 0;
+}
+
+#email{
+    margin-left: -1px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.desktop{
+    display: none;
+}
+
+.iconapec2{
+    width: 40px;
+    height: 40px;
+    margin-left: 10%;
+}
+
+.testopec2{
+    margin-left: 10px;
+}
+
+.orario2{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.sinistra{
+    margin-left: 0;
+}
+
+.orario2{
+    margin-left: 120px;
+}
+
+.supporto2{
+    margin-left: 120px;
+}
+
+.testosupporto2{
+    margin-left: 10px;
+}
+
+.lequattroicone2{
+    justify-content: center;
+    margin-top: 20px;
+}
+p{
+    font-size: 15px;
+    margin-top: 2%;
+}
+}
+
+@media screen and (max-width: 400px) {
+
+    #company{
+    width: 250px;
+    }
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 1500px) {
+    .via{
+        margin-left: 10%;
+    }
+
+    .textphone{
+        margin-left: 10%;
+    }
+
+    .testofax{
+        margin-left: 10%;
+    }
+
+    .testoposta{
+        margin-left: 10%;
+    }
+
+    .testopec2{
+        margin-left: 10%;
+    }
+
+    .testodestinatario{
+        margin-left: 10%;
+    }
+
+    .testosupporto2{
+        margin-left: 10%;
+    }
+
+.mobile .bottone{
+    margin-top: 2%;
+    width: 300px;
+}
+
+.mobile .ilform{
+    margin-top: -2%;
+}
+
+
+.mobile #company{
+    width: 300px;
+    border-radius: 25px;
+}
+
+.mobile #name{
+    margin-left: 0% !important;
+    width: 300px;
+    margin-left: 1%;
+    border-radius: 25px;
+}
+
+.mobile #surname{
+    margin-left: 0% !important;
+    width: 300px;
+    margin-left: 1%;
+    border-radius: 25px;
+}
+
+.mobile #role{
+    width: 300px;
+    border-radius: 25px;
+}
+
+
+.mobile #phone{
+    margin-left: 0% !important;
+    width: 300px;
+    margin-left: 1%;
+    border-radius: 25px;
+}
+
+
+.mobile #email{
+    width: 300px;
+}
+
+
+.mobile #textarea{
+    margin-top: 1%;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.mobile .primap{
+    width: 70%;
+}
+
+}

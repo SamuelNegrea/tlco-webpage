@@ -1,0 +1,718 @@
+// .ciclocard2{
+//     display: none;
+// }
+
+// .mobile{
+//     display: none;
+// }
+
+// .divicone{
+//     position:static;
+//     z-index: 10;
+//     margin-top: -8.5%;
+//     margin-left: 10%;
+// }
+
+// .desktop{
+//     display: block;
+// }
+
+
+// .mobile{
+//     display: none;
+// }
+
+
+
+// :host ::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+//     border-radius: 100px;
+//     opacity: 100%;
+// }
+
+
+
+// :host ::ng-deep.p-tabview .p-tabview-panels{
+//     background-color: transparent;
+// }
+
+// :host ::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+//     background-color: white;
+//     border-radius: 100%;
+//     opacity: 40%;
+// }
+
+
+// :host ::ng-deep .p-tabview .p-tabview-nav{
+//     background-color: transparent;
+// }
+
+
+// @media screen and (max-width: 1800px){
+//     .divicone{
+//         position:static;
+//         z-index: 10;
+//         margin-top: -10.5%;
+//         margin-left: 10%;
+//     }
+// }
+
+
+
+// @media screen and (max-width: 1250px){
+//     .divicone{
+//         position: absolute;
+//         z-index: 10;
+//         margin-top: -30% !important;
+//         margin-left: 10%;
+//         margin-right: 10%;
+//     }
+
+//     :host ::ng-deep .p-tabview .p-tabview-nav{
+//         flex-wrap: wrap;
+//     }
+
+// }
+
+// @media screen and (max-width: 1500px){
+
+// .desktop{
+//     display: none;
+// }
+
+// .mobile{
+//     display: block;
+// }
+
+//     .divicone{
+//         position:absolute;
+//         z-index: 10;
+//         margin-top: -12.5%;
+//         margin-left: 10%;
+//     }
+
+//  .ciclocard2{
+//      display: block;
+//  }
+
+
+//  :host ::ng-deep .p-card-body{
+//     width: 50%;
+//     margin-left: 20%;
+// }
+
+
+
+//     .mobile .riquadroviola{
+//         height: 500px;
+//     }
+    
+
+
+//     .paragrafo{
+//         width: 85% !important;
+//     }
+
+
+// }
+
+// .primap{
+//         font-size: 15px;
+//         font-family: "Segoe UI", Sans-serif;
+//         color: #2E2655;
+//         padding-left: 7%;
+//         padding-right: 7%;
+//         margin-top: 50px;
+// }
+
+// .secondap{
+   
+//         font-size: 15px;
+//         font-family: "Segoe UI", Sans-serif;
+//         color: #2E2655;
+//         padding-left: 7%;
+//         margin-top: 10px;
+//         padding-right: 7%;
+// }
+
+// .mobile .titolop{
+//     margin-top: 37%;
+// }
+
+
+// @media screen and (max-width: 600px){
+
+//     #divicone{
+//         margin-top: -90% !important;
+//         margin-left: 10%;
+//         margin-right: 10%;
+//     }
+
+// }
+
+
+
+// @media screen and (max-width: 950px){
+
+// .ciclocard{
+//     display: none;
+// }
+
+
+// .divicone{
+//     position: absolute;
+//     z-index: 10;
+//     margin-top: -55% !important;
+//     margin-left: 10%;
+//     margin-right: 10%;
+// }
+
+
+// :host ::ng-deep .p-card-body{
+//     width: 100%;
+//     margin-left: 0;
+// }
+
+//     .ciclocard2{
+//         justify-content: center;
+//         padding-left: 5%;
+//         padding-right: 5%;
+//         display: block;
+//      }
+
+//      .mobile .riquadroviola{
+//         height: 620px;
+//     }
+
+
+//     }
+
+
+//     h1{
+//         color: white;
+//         font-family:"Segoe UI", Sans-serif;
+//         font-size: 50px;
+//         font-weight: 300;
+//         padding-top: 2%;
+//         padding-left: 10%;
+//         width: 40%;
+//         margin-top: 0;
+//     }
+
+//     .paragrafo{
+//         color: white;
+//         padding-left: 10%;
+//         width: 42%;
+//         font-size: 15px;
+//         font-family: "Segoe UI", Sans-serif;
+//         padding-top: 20px;
+//     }
+
+
+//     .titolo{
+//         font-family: "Segoe UI", Sans-serif;
+//         color: #ffffff;
+//         font-weight: 500;
+//     }
+    
+//     .ciclocard{
+//         width: 30%;
+//         margin-left: 1.5%;
+//     }
+    
+//     .contenitoreciclocard{
+//         margin-left: 5%;
+//     }
+    
+//     .immaginecard{
+//         width: 100%;
+//         height: 240px;
+//         cursor: pointer;
+//     }
+
+
+//     .spazio{
+//         justify-content: space-between;
+//     }
+
+
+//     .bottonenews{
+//         background-color: #AAC711;
+//         height: 20px;
+//         color: black;
+//     }
+
+
+//     .bottonenews:hover{
+//         background-color: #AAC711;
+//         color: black;
+//     }
+
+
+//     .riquadroviola{
+//       background-image:  linear-gradient(90deg, #1E1B2C 0%, #5945BA 100%);
+//       height: 500px;
+//       width: screen;
+//     }
+
+//     .cuore{
+//         color: white;
+//         width: 300px;
+//         height: 300px;
+//         margin-top: -25%;
+//         margin-left: 70%;
+//         position: absolute;
+//     }
+
+//     .titolop{
+//         font-family: "Segoe UI", Sans-serif;
+//         color: #2E2655;
+//         font-weight: 700;
+//         font-size: 40px;
+//         padding-left: 7%;
+//         margin-top: 5%;
+//     }
+
+
+//     .formattazione{
+//         margin-left: -15%;
+//     }
+
+
+// .spaziocard{
+//     margin-top: 80%;
+// }
+
+
+// .terzap{
+   
+//     font-size: 15px;
+//     font-family: "Segoe UI", Sans-serif;
+//     color: #2E2655;
+//     padding-left: 7%;
+//     margin-top: 10px;
+//     padding-right: 7%;
+// }
+
+
+// .quartap{
+   
+//     font-size: 15px;
+//     font-family: "Segoe UI", Sans-serif;
+//     color: #2E2655;
+//     padding-left: 7%;
+//     margin-top: 10px;
+//     padding-right: 7%;
+// }
+
+
+// .quintap{
+   
+//     font-size: 15px;
+//     font-family: "Segoe UI", Sans-serif;
+//     color: #2E2655;
+//     padding-left: 7%;
+//     margin-top: 10px;
+//     padding-right: 7%;
+// }
+
+
+ .terzap{
+   
+     font-size: 15px;
+     font-family: "Segoe UI", Sans-serif;
+     color: #2E2655;
+    padding-left: 7%;
+     margin-top: 10px;
+     padding-right: 7%;
+ }
+
+.quartap{
+   
+     font-size: 15px;
+     font-family: "Segoe UI", Sans-serif;
+     color: #2E2655;
+     padding-left: 7%;
+    margin-top: 10px;
+     padding-right: 7%;
+ }
+
+
+ .quintap{
+   
+    font-size: 15px;
+    font-family: "Segoe UI", Sans-serif;
+    color: #2E2655;
+     padding-left: 7%;
+     margin-top: 10px;
+     padding-right: 7%;
+}
+
+.ciclocard2{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+
+.divicone{
+    position:static;
+    z-index: 10;
+    margin-top: -8.5%;
+    margin-left: 10%;
+}
+
+.desktop{
+    display: block;
+}
+
+
+.mobile{
+    display: none;
+}
+
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    border-radius: 100px;
+    opacity: 100%;
+}
+
+
+
+:host ::ng-deep.p-tabview .p-tabview-panels{
+    background-color: transparent;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    background-color: white;
+    border-radius: 100%;
+    opacity: 40%;
+}
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav{
+    background-color: transparent;
+}
+
+
+@media screen and (max-width: 1800px){
+    .divicone{
+        position:static;
+        z-index: 10;
+        margin-top: -10.5%;
+        margin-left: 10%;
+    }
+}
+
+
+
+@media screen and (max-width: 1250px){
+    .divicone{
+        position: absolute;
+        z-index: 10;
+        margin-top: -30% !important;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    :host ::ng-deep .p-tabview .p-tabview-nav{
+        flex-wrap: wrap;
+    }
+
+    .titolop{
+        font-family: "Segoe UI", Sans-serif;
+        color: #2E2655;
+        font-weight: 700;
+        font-size: 40px;
+        padding-left: 7%;
+        margin-top: 28% !important;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 1250px){
+    .mobile{
+        display: block;
+    }
+
+    
+ .ciclocard2{
+    display: block;
+}
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1500px){
+
+.desktop{
+    display: none;
+}
+
+.spaziocard{
+    margin-top: 60%;
+}
+
+.mobile{
+    display: block;
+}
+
+    .divicone{
+        position:absolute;
+        z-index: 10;
+        margin-top: -12.5%;
+        margin-left: 10%;
+    }
+
+ .ciclocard2{
+     display: block;
+ }
+
+
+ :host ::ng-deep .p-card-body{
+    width: 50%;
+    margin-left: 20%;
+}
+
+.titolop{
+    font-family: "Segoe UI", Sans-serif;
+    color: #2E2655;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 7%;
+    margin-top: -4% !important;
+}
+
+@media screen and (min-width: 600px) and (max-width: 875px){
+
+.titolop{
+    margin-top: 6% !important;
+}
+
+}
+
+
+
+    .mobile .riquadroviola{
+        height: 500px;
+    }
+    
+
+
+    .paragrafo{
+        width: 85% !important;
+    }
+
+
+}
+
+.primap{
+        font-size: 15px;
+        font-family: "Segoe UI", Sans-serif;
+        color: #2E2655;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-top: 50px;
+}
+
+.secondap{
+   
+        font-size: 15px;
+        font-family: "Segoe UI", Sans-serif;
+        color: #2E2655;
+        padding-left: 7%;
+        margin-top: 10px;
+        padding-right: 7%;
+}
+
+.mobile .titolop{
+    margin-top: 37%;
+}
+
+
+@media screen and (max-width: 600px){
+
+    #divicone{
+        margin-top: -90% !important;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .spaziocard{
+        margin-top: 90% !important;
+    }
+
+    .titolop{
+        font-family: "Segoe UI", Sans-serif;
+        color: #2E2655;
+        font-weight: 700;
+        font-size: 40px;
+        padding-left: 7%;
+        margin-top: 52% !important;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .titolop{
+        font-family: "Segoe UI", Sans-serif;
+        color: #2E2655;
+        font-weight: 700;
+        font-size: 40px;
+        padding-left: 7%;
+        margin-top: 48% !important;
+    }
+
+.desktop{
+    display: none;
+}
+
+}
+
+
+
+@media screen and (max-width: 950px){
+
+.ciclocard{
+    display: none;
+}
+
+.spaziocard{
+    margin-top: 60% !important;
+}
+
+
+.divicone{
+    position: absolute;
+    z-index: 10;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.colore12{
+    height: 700px;
+}
+
+.desktop{ 
+    display: none
+}
+
+
+:host ::ng-deep .p-card-body{
+    width: 100%;
+    margin-left: 0;
+}
+
+    .ciclocard2{
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: block;
+     }
+
+     .mobile .riquadroviola{
+        height: 620px;
+    }
+
+
+    }
+
+
+    h1{
+        color: white;
+        font-family:"Segoe UI", Sans-serif;
+        font-size: 50px;
+        font-weight: 300;
+        padding-top: 2%;
+        padding-left: 10%;
+        width: 40%;
+        margin-top: 0;
+    }
+
+    .paragrafo{
+        color: white;
+        padding-left: 10%;
+        width: 42%;
+        font-size: 15px;
+        font-family: "Segoe UI", Sans-serif;
+        padding-top: 20px;
+    }
+
+
+    .titolo{
+        font-family: "Segoe UI", Sans-serif;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
+    .ciclocard{
+        width: 30%;
+        margin-left: 1.5%;
+    }
+    
+    .contenitoreciclocard{
+        margin-left: 5%;
+    }
+    
+    .immaginecard{
+        width: 100%;
+        height: 240px;
+        cursor: pointer;
+    }
+
+
+    .spazio{
+        justify-content: space-between;
+    }
+
+
+    .bottonenews{
+        background-color: #AAC711;
+        height: 20px;
+        color: black;
+    }
+
+
+    .bottonenews:hover{
+        background-color: #AAC711;
+        color: black;
+    }
+
+
+    .riquadroviola{
+      background-image:  linear-gradient(90deg, #1E1B2C 0%, #5945BA 100%);
+      height: 500px;
+      width: screen;
+    }
+
+    .cuore{
+        color: white;
+        width: 300px;
+        height: 300px;
+        margin-top: -25%;
+        margin-left: 70%;
+        position: absolute;
+    }
+
+    .titolop{
+        font-family: "Segoe UI", Sans-serif;
+        color: #2E2655;
+        font-weight: 700;
+        font-size: 40px;
+        padding-left: 7%;
+        margin-top: 5%;
+    }
+
+
+    .formattazione{
+        margin-left: -15%;
+    }
+
+
+.spaziocard{
+    margin-top: 10% !important;
+}

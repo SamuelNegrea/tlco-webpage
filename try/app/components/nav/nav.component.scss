@@ -1,0 +1,404 @@
+
+.divisore2{
+    margin-top: -40px;
+    width: screen;
+}
+
+
+:host ::ng-deep .carouselinuso{
+    .p-carousel-prev{
+        margin-left: 2%;
+        position: absolute;
+    }
+}
+
+:host ::ng-deep .carouselinuso{
+    .p-carousel-next{
+       float: right;
+       margin-left: 92%;
+        position: absolute;
+    }
+    .p-element .carouselinuso{
+        width: 100vw;
+    }
+}
+
+
+.carousel{
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+.classe1{
+
+
+    .immagine{
+        float:right;
+        margin-right: 5%;
+        height: 370px;
+        margin-bottom: 5%;
+        margin-top: 7%;
+    }
+
+    background-color: #27214F;
+   
+
+    .titolo{
+        font-size: 60px;
+        padding-top: 8%;
+        padding-left: 10%;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .paragrafo{
+            margin-top: 2%;
+            padding-left: 10%;
+            width: 45%;
+            color: white;
+            font-size: 20px;
+            font-weight: lighter;
+    }
+
+    .paragrafo2{
+        padding-left: 10%;
+        width: 55%;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+}
+    
+    .bottone{
+        margin-left: 10%;
+        background-color: #AAC711;
+        color: black;
+        width: 160px;
+        border: none;
+        margin-top: 3%;
+    }
+    
+    .fleximmagine{
+        margin-left: 70%;
+        margin-top: -18%;
+    }
+
+}
+
+
+
+.classe2{
+
+    background-image: linear-gradient(90deg, #013C5E 0%, #7AD4D1 100%);
+    
+    .immagine{
+        float:right;
+        margin-right: 5%;
+        height: 370px;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+.titolo{
+    font-size: 60px;
+    padding-top: 8%;
+    padding-left: 10%;
+    color: white;
+    font-weight: lighter;
+}
+
+.paragrafo{
+        padding-top: 2%;
+        padding-left: 10%;
+        width: 45%;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+}
+
+.bottone{
+    margin-bottom: 50px;
+    margin-top: 3%;
+    margin-left: 10%;
+    background-color: #7AD4D1;
+    color:black;
+    width: 160px;
+    border: none;
+}
+
+.fleximmagine{
+    margin-left: 70%;
+    margin-top: -16%;
+}
+
+}
+
+.classe3{
+
+    .immagine{
+        float:right;
+        margin-right: 5%;
+        height: 370px;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+    
+    background-image: linear-gradient(90deg, #005E19 0%, #AAC711 100%);
+
+
+
+    .titolo{
+        font-size: 60px;
+        padding-top: 8%;
+        padding-left: 10%;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .paragrafo{
+            padding-left: 10%;
+            width: 45%;
+            color: white;
+            font-size: 20px;
+            font-weight: lighter;
+            margin-top: 3%;
+    }
+    
+    .bottone{
+        margin-left: 10%;
+        background-color: #AAC711;
+        color: black;
+        margin-top: 3%;
+        width: 160px;
+        border: none;
+    }
+    
+    .fleximmagine{
+        margin-left: 70%;
+        margin-top: -14%;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 1880px) {
+
+}
+
+
+@media screen and (max-width: 1500px) {
+    .carousel{
+        height: 700px;
+ 
+    }
+}
+
+
+@media screen and (max-width: 880px) {
+
+    .carousel{
+        height: 700px;
+   
+
+        .titolo{
+            font-size: 40px;
+        }
+
+        .immagine{
+            display: none;
+        }
+
+        .paragrafo{
+            font-size: 15px;
+            width: 80%;
+            height: 130px;
+        }
+
+        .paragrafo2{
+            margin-top: -50px;
+            font-size: 15px;
+            width: 80%;
+            height: 260px;
+        }
+
+        .bottone{
+            height: 40px;
+            width: 120px;
+            display: block;
+            margin-top: -205px;
+            position: absolute;
+            font-size: 12px;
+        }
+
+        .classe2{
+
+            .bottone{
+            height: 40px;
+            width: 120px;
+            display: block;
+            margin-top: -240px;
+            position: absolute;
+            font-size: 12px;
+        }
+        }
+
+        .classe3{
+
+            .bottone{
+            height: 40px;
+            width: 120px;
+            display: block;
+            margin-top: -280px;
+            position: absolute;
+            font-size: 12px;
+        }
+        }
+    }
+
+}
+
+:host ::ng-deep .carouselinuso{
+.p-carousel-items-container{
+
+}
+}
+
+:host ::ng-deep .carouselinuso{
+.p-carousel .p-carousel-content .p-carousel-prev, .p-carousel .p-carousel-content .p-carousel-next{
+    width: auto;
+}
+}
+
+:host ::ng-deep .carouselinuso{
+.p-carousel-item .p-carousel-item-active .p-carousel-item-end{
+    width: auto;
+}
+}
+
+@media screen and (max-width: 680px) {
+
+    .carousel{
+        height: 700px;
+   
+
+        .titolo{
+            font-size: 40px;
+        }
+
+        .immagine{
+            display: none;
+        }
+
+        .paragrafo{
+            font-size: 15px;
+            width: 80%;
+            height: 130px;
+        }
+
+        .paragrafo2{
+            margin-top: -50px;
+            font-size: 15px;
+            width: 80%;
+            height: 260px;
+        }
+
+        .bottone{
+            height: 40px;
+            width: 120px;
+            display: block;
+            margin-top: -190px;
+            position: absolute;
+            font-size: 12px;
+        }
+
+
+        .classe1{
+
+            .bottone{
+            height: 40px;
+            width: 120px;
+            display: block;
+            margin-top: -170px;
+            position: absolute;
+            font-size: 12px;
+        }
+    }
+
+        .classe2{
+
+            .bottone{
+            height: 40px;
+            width: 120px;
+            display: block;
+            margin-top: -220px;
+            position: absolute;
+            font-size: 12px;
+        }
+        }
+
+        .classe3{
+
+            .bottone{
+            height: 40px;
+            width: 120px;
+            display: block;
+            margin-top: -200px;
+            position: absolute;
+            font-size: 12px;
+        }
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+    .carousel{
+        
+        .classe1{
+            height: 520px;
+            .bottone{
+                margin-top: -110px;
+            }
+
+        }
+  
+        .classe2{
+            height: 520px;
+            .bottone{
+            height: 40px;
+            width: 120px;
+            display: block;
+            margin-top: -130px;
+            position: absolute;
+            font-size: 12px;
+        }
+    }
+
+    .classe3{
+        height: 520px;
+        .bottone{
+            margin-top: -130px;
+        }
+
+    }
+}
+    }
+
+
+    @media screen and (max-width: 340px) {
+            h4{
+                margin-top: 60px;
+            }
+    }
+
+    
+
+}
+
+ 

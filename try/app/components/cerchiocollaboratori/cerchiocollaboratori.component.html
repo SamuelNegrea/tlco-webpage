@@ -1,0 +1,74 @@
+
+
+    <div class="desktop">
+        <div class="formattazione">
+            <h2 class="titolop">L’importanza di un ambiente di lavoro sereno e flessibile</h2>
+
+            <p class="primap">In TEL&CO uno dei nostri <strong>obiettivi primari</strong> è da sempre quello di <strong>migliorare l’ambiente lavorativo ed il benessere dei nostri collaboratori</strong>, offrendo a tutto il personale un’ottima <strong>flessibilità di orario</strong>, per recuperare così le energie e la freschezza mentale necessarie per affrontare lo stress generato da ore trascorse davanti ad un monitor.
+                Lo stress, per altro, non ha solo conseguenze negative per il benessere psicofisico e la performance dei propri dipendenti, ma può anche determinare un peggioramento delle condizioni di salute e un aumentato rischio di malattie.</p>
+            
+            <p class="secondap">In un’<strong>azienda che non ha problemi di stress</strong>, i lavoratori fanno meno errori e la <strong>produttività globale aumenta</strong>, diminuiscono le assenze dal lavoro e la successione delle fasi lavorative è meno disturbata.
+                Per questo siamo convinti che migliorare l’ambiente lavorativo e renderlo favorevole, possa garantire una migliore qualità di servizio.</p>
+            
+                <p class="terzap">Abbiamo quindi reso disponibile all’interno della nostra sede una <strong>cucina attrezzata e una area relax sempre accessibile</strong>, dove tutti possono ritrovare momenti di tranquillità e serenità.</p>
+            
+                <p class="quartap">Il rispetto delle normative Covid ci ha portato ad aumentare fino al <strong>75% lo smart working</strong> del nostro personale, pur avendo già da prima della pandemia approcciato con successo il lavoro da remoto di alcuni dei nostri dipendenti.</p>
+            
+                <p class="quintap">Dal 2020 è partito un <strong>progetto di Welfare aziendale</strong> messo a disposizione di tutti i dipendenti: partendo da un plafond stabilito dall’azienda, ogni collaboratore può utilizzare annualmente il proprio credito per acquisti convenzionati o rimborsi di vario tipo (mensa scolastica, cure mediche, attività sportive e ricreative). Per TEL&CO, un ulteriore, fondamentale passo per il <strong>benessere dei propri dipendenti</strong>, perchè <strong>la nostra forza sono le persone</strong>.</p>
+            
+            
+        
+        <div class="flex-1 flex flex-wrap contenitoreciclocard">
+           
+            <div *ngFor="let item of news; index as i;" class="ciclocard">
+        
+               
+                <p-card class="cardnews">
+        
+                    <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 100)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+        
+                   
+                </p-card>
+                <br>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="mobile">
+          
+            <div class="spaziocard">
+                <h2 class="titolop">L’importanza di un ambiente di lavoro sereno e flessibile</h2>
+
+                <p class="primap">In TEL&CO uno dei nostri <strong>obiettivi primari</strong> è da sempre quello di <strong>migliorare l’ambiente lavorativo ed il benessere dei nostri collaboratori</strong>, offrendo a tutto il personale un’ottima <strong>flessibilità di orario</strong>, per recuperare così le energie e la freschezza mentale necessarie per affrontare lo stress generato da ore trascorse davanti ad un monitor.
+                    Lo stress, per altro, non ha solo conseguenze negative per il benessere psicofisico e la performance dei propri dipendenti, ma può anche determinare un peggioramento delle condizioni di salute e un aumentato rischio di malattie.</p>
+                
+                <p class="secondap">In un’<strong>azienda che non ha problemi di stress</strong>, i lavoratori fanno meno errori e la <strong>produttività globale aumenta</strong>, diminuiscono le assenze dal lavoro e la successione delle fasi lavorative è meno disturbata.
+                    Per questo siamo convinti che migliorare l’ambiente lavorativo e renderlo favorevole, possa garantire una migliore qualità di servizio.</p>
+                
+                    <p class="terzap">Abbiamo quindi reso disponibile all’interno della nostra sede una <strong>cucina attrezzata e una area relax sempre accessibile</strong>, dove tutti possono ritrovare momenti di tranquillità e serenità.</p>
+                
+                    <p class="quartap">Il rispetto delle normative Covid ci ha portato ad aumentare fino al <strong>75% lo smart working</strong> del nostro personale, pur avendo già da prima della pandemia approcciato con successo il lavoro da remoto di alcuni dei nostri dipendenti.</p>
+                
+                    <p class="quintap">Dal 2020 è partito un <strong>progetto di Welfare aziendale</strong> messo a disposizione di tutti i dipendenti: partendo da un plafond stabilito dall’azienda, ogni collaboratore può utilizzare annualmente il proprio credito per acquisti convenzionati o rimborsi di vario tipo (mensa scolastica, cure mediche, attività sportive e ricreative). Per TEL&CO, un ulteriore, fondamentale passo per il <strong>benessere dei propri dipendenti</strong>, perchè <strong>la nostra forza sono le persone</strong>.</p>
+                
+        <div *ngFor="let item of news; index as i;" class="ciclocard2">
+        
+        
+            <p-card class="cardnews2">
+                <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 130)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+        
+                <!-- <img src="{{item._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard">
+                <p class="titolo">{{item.title.rendered}}</p>
+                {{item.excerpt.rendered.slice(3, 130)}}
+                <ng-template pTemplate="footer">
+                    <div class="flex-1 flex spazio">
+                        <p class="data">{{item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                        <button pButton class=" p-button-rounded bottonenews">{{item._embedded['wp:term'][0][0].name}}</button>
+                    </div>
+                </ng-template> -->
+            </p-card>
+            <br>
+        </div> 
+        </div>
+        </div>

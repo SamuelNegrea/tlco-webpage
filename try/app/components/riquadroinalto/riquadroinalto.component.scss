@@ -1,0 +1,101 @@
+.riquadro{
+    width: screen;
+    height: 600px;
+}
+
+.titolo{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 40px;
+    font-family: "Segoe UI", Sans-serif;
+    color: white;
+}
+
+@media screen and (max-width: 1250px){
+    .riquadro{
+        width: screen;
+        height: 700px;
+    }
+
+}
+
+@media screen and (max-width: 950px){
+    .riquadro{
+        width: screen;
+        height: 900px;
+    }
+
+}
+.paragrafo{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 15px;
+    width: 30%;
+    font-family: "Segoe UI", Sans-serif;
+    color: white;
+}
+
+.colore1{
+    background-image: linear-gradient(130deg, #1E1B2C 0%, #5945BA 100%);
+    height: 400px;
+}
+
+.colore12{
+    background-image: linear-gradient(130deg, #1E1B2C 0%, #5945BA 100%);
+    height: 500px;
+}
+
+.colore2{
+    background-image: linear-gradient(60deg, #013C5E 22%, #7AD4D1 71%);
+    height: 400px;
+}
+
+.colore3{
+    background-image: linear-gradient(90deg, #005E19 0%, #AAC711 100%);
+    height: 350px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .titolo{
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 10%;
+        font-size: 20px;
+        font-family: "Segoe UI", Sans-serif;
+        color: white;
+    }
+
+    .paragrafo{
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 25%;
+        font-size: 15px;
+        width: 40%;
+        font-family: "Segoe UI", Sans-serif;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+
+    .colore12{
+        background-image: linear-gradient(130deg, #1E1B2C 0%, #5945BA 100%);
+        height: 700px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+.colore12{
+    background-image: linear-gradient(130deg, #1E1B2C 0%, #5945BA 100%);
+    height: 900px;
+}
+
+
+}

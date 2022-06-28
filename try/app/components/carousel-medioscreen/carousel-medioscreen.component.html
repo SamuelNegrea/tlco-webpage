@@ -1,0 +1,13 @@
+<div class="h-10rem carousel">
+    <p-carousel [value]="slides" [numVisible]="6" [showIndicators]="false" [autoplayInterval]="3000" [circular]="true"
+        [numScroll]="1" [orientation]="'horizontal'">
+        <ng-template let-slide pTemplate="item">
+            <div class="h-10rem w-8rem immagini">
+
+                <img [src]="slide.immagine" class="immagine">
+
+            </div>
+        </ng-template>
+    </p-carousel>
+
+</div>

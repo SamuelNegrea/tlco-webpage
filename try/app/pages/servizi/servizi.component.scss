@@ -1,0 +1,372 @@
+.sottoi1000{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+
+.riquadroazzurro{
+    background-image: linear-gradient(60deg, #013C5E 22%, #7AD4D1 71%);
+    height: 400px;
+}
+
+
+h1{
+    font-size: 50px;
+    margin-left: 10%;
+    color: white;
+    font-family: "Segoe UI", Sans-serif;
+    font-weight: 300;
+    padding-top: 3%;
+}
+
+p{
+    color: white;
+    margin-left: 10%;
+    font-family: "Segoe UI", Sans-serif;
+    width: 25%;
+}
+
+.view{
+    width: 200px;
+    height: 200px;
+    margin-top: -75%;
+    margin-left: -40%;
+    position: absolute;
+}
+
+
+:host ::ng-deep .p-tabview-nav{
+    display: grid;
+    flex-direction: column;
+}
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    color: #013C5E;
+}
+
+
+
+
+
+
+.selezione{
+    margin-left: 12%;
+    margin-top: 3%;
+    position: static;
+}
+
+.primap{
+    color: black;
+    width: 55%;
+}
+
+.secondap{
+    color: black;
+    width: 55%;
+}
+
+.terzap{
+    width: 55%;
+    color: black;
+}
+
+    .bottone{
+        background-color: #7ad4d1;
+        margin-left: 10%;
+        height: 45px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .testo{
+        margin-left: 20%;
+        margin-top: -18%;
+        position: absolute;
+    }
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .desktop{
+        display: none;
+    } 
+
+    .sottoi1000{
+        display: block;
+    }
+
+    .view{
+        margin-top: 0%;
+        margin-left: 35%;
+    }
+
+    .riquadroazzurro{
+        background-image: linear-gradient(60deg, #013C5E 22%, #7AD4D1 71%);
+        height: 500px;
+    }
+
+    p{
+        color: white;
+        margin-left: 10%;
+        font-family: "Segoe UI", Sans-serif;
+        width: 80%;
+    }
+
+    .testo{
+        margin-top: 10%;
+        position:static;
+    }
+
+    .corpo1{
+        height: 320px;
+    }
+
+    .corpo2{
+        height: 270px;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .corpo1{
+        height: 480px;
+    }
+
+    .corpo2{
+        height: 100px;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .view{
+        margin-top: 0%;
+        margin-left: 30%;
+    }
+
+    .riquadroazzurro{
+        background-image: linear-gradient(60deg, #013C5E 22%, #7AD4D1 71%);
+        height: 500px;
+    }
+
+    p{
+        color: white;
+        margin-left: 10%;
+        font-family: "Segoe UI", Sans-serif;
+        width: 80%;
+    }
+
+    .testo{
+        margin-top: -25%;
+        margin-left: 0;
+        position:static;
+    }
+
+    .corpo1{
+        height: 320px;
+    }
+
+    .corpo2{
+        height: 600px;
+    }
+
+}
+
+
+@media screen and (max-width: 460px) {
+
+    .view{
+        margin-top: 0%;
+        margin-left: 20%;
+    }
+
+    .riquadroazzurro{
+        background-image: linear-gradient(60deg, #013C5E 22%, #7AD4D1 71%);
+        height: 600px;
+    }
+
+    .view2{
+        display: none;
+    }
+
+    p{
+        color: white;
+        margin-left: 10%;
+        font-family: "Segoe UI", Sans-serif;
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    .corpo1{
+        height: 220px;
+    }
+
+    .corpo2{
+        height: 470px;
+    }
+
+    .testo{
+        margin-top: -35%;
+        margin-left: 0;
+        position:static;
+        font-size: 10px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1800px) {
+
+    .primap{
+        color: black;
+        width: 65%;
+    }
+    
+    .secondap{
+        color: black;
+        width: 65%;
+    }
+    
+    .terzap{
+        width: 65%;
+        color: black;
+    }
+
+}
+
+
+@media screen and (max-width: 1700px) {
+
+    .primap{
+        color: black;
+        width: 75%;
+    }
+    
+    .secondap{
+        color: black;
+        width: 75%;
+    }
+    
+    .terzap{
+        width: 75%;
+        color: black;
+    }
+
+}
+
+
+@media screen and (max-width: 1600px) {
+
+    .primap{
+        margin-top: -2%;
+        color: black;
+        width: 85%;
+        font-size: 15px;
+    }
+    
+    .secondap{
+        margin-top: -1%;
+        color: black;
+        width: 85%;
+        font-size: 15px;
+    }
+    
+    .terzap{
+        margin-top: -1%;
+        width: 85%;
+        color: black;
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 1500px) {
+
+.desktop{
+    display: none;
+}
+
+.mobile{
+    display: block;
+    overflow-x: hidden;
+}
+
+
+.sottoi10002{
+    display: block;
+}
+
+
+.riquadroazzurro2{
+    background-image: linear-gradient(60deg, #013C5E 22%, #7AD4D1 71%);
+    height: 400px;
+}
+
+.testo{
+    margin-top: -5%;
+    margin-left: 0;
+    padding-bottom: 5%;
+    font-size: 25px;
+    position:static;
+}
+
+
+
+.view2{
+    width: 200px;
+    height: 200px;
+    margin-left: 70%;
+    margin-top: -40%;
+}
+
+.riquadroazzurro2{
+    background-image: linear-gradient(60deg, #013C5E 22%, #7AD4D1 71%);
+    height: 400px;
+}
+
+.corpo1{
+    height: 100px;
+}
+
+.corpo2{
+    height: 100px;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .view2{
+        width: 200px;
+        height: 200px;
+        margin-left: 25%;
+        margin-top: 0%
+    }
+
+    .riquadroazzurro2{
+        background-image: linear-gradient(60deg, #013C5E 22%, #7AD4D1 71%);
+        height: 500px;
+    }
+
+    .testo{
+        margin-top: -10%;
+        margin-left: 0;
+        padding-bottom: 5%;
+        position:static;
+    }
+
+}

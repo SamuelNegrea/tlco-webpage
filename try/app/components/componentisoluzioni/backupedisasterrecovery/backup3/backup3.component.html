@@ -1,0 +1,39 @@
+
+<div class="riquadroverde">
+
+    <p-dropdown class="drop" [options]="options" [(ngModel)]="selectedOption" optionLabel="name"></p-dropdown>
+
+    <p class="p1">Il backup è la soluzione con cui viene creata e memorizzata altrove una copia di sicurezza dei dati al fine di recuperarli in caso di necessità: è fondamentale per non perdere informazioni nel caso di un incidente o frode informatica. Senza un adeguato piano di backup e recupero, nessuna azienda può dormire sonni tranquilli perché rischia di perdere, temporaneamente o per sempre, i dati aziendali che spesso sono il vero patrimonio di un’impresa, con conseguente perdita anche di tempo, soldi, reputazione e clienti.</p>
+
+    <p class="p2">Purtroppo, mai come oggi ogni azienda deve essere pronta ad affrontare qualsiasi genere di criticità: dal guasto all’hardware di un’apparecchiatura strategica all’errore umano, fino ad arrivare alle calamità naturali a noi note come terremoti e alluvioni ed ai sempre più frequenti attacchi Ransomware.</p>
+
+    <p class="p3">Noi di TEL&CO sappiamo che i dati informatici sono sempre più a rischio e occorre fare il necessario per proteggerli, avendo la certezza di essere nelle condizioni di poter ripristinare la funzionalità dei sistemi più rapidamente possibile, per consentire la continuità operativa all’azienda.</p>
+
+
+
+    <div class="divicone flex">
+
+        <p-tabView>
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-backupFinalGreen.svg'"></app-icone>
+                  
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Backup'"></app-icone>
+            </p-tabPanel>
+           
+            <p-tabPanel>
+                <ng-template pTemplate="header">
+                    <app-icone class="immagine" [immagine]="'../../assets/images/icon-businessFinal.svg'"></app-icone>
+                    
+                </ng-template>
+                <app-icone class="titolo" [titolo]="'Disaster Recovery e Business Continuity'"></app-icone>
+            </p-tabPanel>
+    
+    
+        </p-tabView>
+    
+    
+    </div>
+
+</div>

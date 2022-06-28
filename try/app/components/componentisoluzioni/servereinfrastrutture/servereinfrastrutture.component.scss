@@ -1,0 +1,389 @@
+
+
+.riquadroverde{
+    background-image: linear-gradient(90deg, #005E19 22%, #AAC711 71%);
+    width: screen;
+    height: 800px; 
+}
+
+
+:host ::ng-deep .p-dropdown-label{
+    color: #004a75;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+:host ::ng-deep .p-dropdown-items-wrapper{
+    max-height: 400px !important;
+}
+
+:host ::ng-deep .p-dropdown{
+    left: 10%;
+    top: 15%;
+    border-radius: 25px;
+    width: 40%;
+}
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items{
+    background: #01a517;
+}
+
+
+.p1{
+    margin-top: 10%;
+    color: #FFFFFFDB;
+    width: 30%;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+.p2{
+    margin-top: 1%;
+    color: #FFFFFFDB;
+    width: 30%;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+.p3{
+    margin-top: 1%;
+    color: #FFFFFFDB;
+    width: 30%;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+
+.p4{
+    margin-top: 1%;
+    color: #FFFFFFDB;
+    width: 30%;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.divicone{
+    margin-left: 10%;
+}
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav{
+    background: transparent;
+}
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    background: transparent;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    background: transparent;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-panels{
+    background: transparent;
+    color: white;
+}
+
+
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item{
+    background: #005e19;
+    color: white;
+}
+
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items{
+
+    background: #005e19;
+}
+
+h1{
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #005E19;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.p5{
+    color: #707070;
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.p6{
+    color: #707070;
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.p7{
+    color: #707070;
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.p8{
+    color: #707070;
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.p9{
+    color: #707070;
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.p10{
+    color: #707070;
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.p11{
+    color: #707070;
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.p12{
+    color: #707070;
+    width: 50%;
+    margin-left: 10%;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+
+
+
+
+
+h2{
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #005E19;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.immaginesystems{
+    width: 200px;
+    height: 200px;
+}
+
+.bottone{
+    background-color: #AAC711;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 25px;
+    border-width: 0;
+    cursor: pointer;
+    margin-top: 1%;
+    font-family: "Segoe UI", sans-serif;
+    }
+
+    .riquadroverde2{
+        background-image: linear-gradient(90deg, #AAC711 0%, #005E19 100%);
+        height: 800px;
+        width: screen;
+    }
+
+
+    :host ::ng-deep .sinistra .p-accordion .p-accordion-header .p-accordion-header-link{
+        width: 50%;
+        margin-left: 2%;
+        background: transparent;
+        border: none;
+        color: white;
+    }
+
+
+    :host ::ng-deep .destra .p-accordion .p-accordion-header .p-accordion-header-link{
+        width: 60%;
+        margin-left: 2%;
+        background: transparent;
+        border: none;
+        color: white;
+    }
+
+
+    :host ::ng-deep .p-accordion .p-accordion-header .p-accordion-header-link{
+        width: 80%;
+        margin-left: 10%;
+        color: #005E19;
+    }
+
+    .sinistra h1{
+        color: white;
+        font-size: 20px;
+        margin-top: 30px;
+        font-family: "Segoe UI", sans-serif;
+    }
+
+
+    .destra h1{
+        color: white;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 2%;
+        padding-bottom: 3%;
+        font-family: "Segoe UI", sans-serif;
+    }
+
+    .uno{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    .primaimmagineasinistra{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .due{
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    .secondaimmagineasinistra{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .tre{
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    .terzaimmagineasinistra{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .quattro{
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    .quartaimmagineasinistra{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .cinque{
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    .quintaimmagineasinistra{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    :host ::ng-deep .sinistra .p-accordion .p-accordion-content{
+        width: 50%;
+        margin-left: 2%;
+       
+    }
+
+
+    :host ::ng-deep .destra .p-accordion .p-accordion-content{
+        width: 60%;
+        margin-left: 2%;
+       
+    }
+
+
+    :host ::ng-deep .p-accordion .p-accordion-content{
+        width: 80%;
+        margin-left: 10%;
+       
+    }
+
+    .gliaccordion{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .primaimmagineaccordion{
+        margin-left: 10%;
+        width: 100%;
+    }
+
+    .immaginelenovo{
+        width: 300px;
+        height: 200px;
+    }
+
+    h3{
+        margin-left: 10%;
+        color: #2E2655;
+        font-family: "Segoe UI", sans-serif;
+        margin-top: 2%;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+
+
+
+    :host ::ng-deep .p-accordion .p-accordion-header .p-accordion-header-link .p-accordion-toggle-icon::before{
+        display: none;
+    }
+
+
+    :host ::ng-deep .p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link{
+        color: #005E19;
+    }
+
+    :host ::ng-deep .p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link{
+        color: #005E19;
+    }
+
+    span{
+        font-size: 35px;
+        color: #a9be48;
+        margin-left: 30px;
+        position: absolute;
+        z-index: 5;
+    }
+
+    div.sinistra, div.destra {
+        margin-top: 2%;
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+      }
+      div.sinistra {
+        border-right: 1px solid rgb(211, 211, 211);
+        padding-right: 20px;
+      }
+      div.destra {
+        padding-left: 20px;
+      }
+
+      .piuaccordion{
+          margin-left: 11%;
+          z-index: 5;
+      }
+
+      .sinistra{
+          margin-left: 6%;
+      }

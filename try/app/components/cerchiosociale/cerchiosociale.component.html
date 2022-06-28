@@ -1,0 +1,57 @@
+
+<div class="desktop">
+    <div class="formattazione">
+        <h2 class="titolop">Una società giusta non lascia indietro nessuno</h2>
+
+        <p class="primap">Sono numerosissime le iniziative che ci vedono al fianco di associazioni ed aziende no profit, consci del fatto che una società giusta non lasci indietro nessuno.
+            Per questo da diversi anni collaboriamo con <span>AUT AUT</span>, attraverso <strong>corsi di digitalizzazione</strong> che possano aprire <strong>ai ragazzi autistici</strong> le porte del mondo del lavoro.
+            Supportiamo a livello informatico anche <span>Io Sto Con Voi</span>, un’<strong>associazione</strong> senza fini di lucro che <strong>agisce attivamente sui temi della lotta al cancro</strong>, alla diffusione della cultura della prevenzione, benessere e stili di vita sani.
+            Grazie alla collaborazione con la neonata <strong>azienda agricola</strong> <span>Ragliando S’Impara</span>, sosteniamo diverse iniziative che hanno il fine principale di <strong>ritornare ai ritmi della natura</strong>, attraverso la <strong>cura per gli animali</strong> e <strong>l’inclusione</strong> di bimbi e ragazzi, anche quelli appartenenti alle categorie più fragili: un vero e proprio <strong>laboratorio a cielo aperto</strong> ideale per centri estivi, eventi, percorsi emozionali, sessioni didattiche.</p>
+  
+    <div class="flex-1 flex flex-wrap contenitoreciclocard">
+       
+        <div *ngFor="let item of news; index as i;" class="ciclocard">
+    
+           
+            <p-card class="cardnews">
+    
+                <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 100)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+    
+               
+            </p-card>
+            <br>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="mobile">
+      
+        <div class="spaziocard">
+            <h2 class="titolop">Una società giusta non lascia indietro nessuno</h2>
+
+            <p class="primap">Sono numerosissime le iniziative che ci vedono al fianco di associazioni ed aziende no profit, consci del fatto che una società giusta non lasci indietro nessuno.
+                Per questo da diversi anni collaboriamo con <span>AUT AUT</span>, attraverso <strong>corsi di digitalizzazione</strong> che possano aprire <strong>ai ragazzi autistici</strong> le porte del mondo del lavoro.
+                Supportiamo a livello informatico anche <span>Io Sto Con Voi</span>, un’<strong>associazione</strong> senza fini di lucro che <strong>agisce attivamente sui temi della lotta al cancro</strong>, alla diffusione della cultura della prevenzione, benessere e stili di vita sani.
+                Grazie alla collaborazione con la neonata <strong>azienda agricola</strong> <span>Ragliando S’Impara</span>, sosteniamo diverse iniziative che hanno il fine principale di <strong>ritornare ai ritmi della natura</strong>, attraverso la <strong>cura per gli animali</strong> e <strong>l’inclusione</strong> di bimbi e ragazzi, anche quelli appartenenti alle categorie più fragili: un vero e proprio <strong>laboratorio a cielo aperto</strong> ideale per centri estivi, eventi, percorsi emozionali, sessioni didattiche.</p>
+      
+    <div *ngFor="let item of news; index as i;" class="ciclocard2">
+    
+    
+        <p-card class="cardnews2">
+            <app-unavviso [immagine]="item._embedded['wp:featuredmedia'][0].source_url" [titolo] = "item.title.rendered" [descrizione] = "item.excerpt.rendered.slice(3, 130)" [data] = "item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)" [bottone] = "item._embedded['wp:term'][0][0].name"></app-unavviso>
+    
+            <!-- <img src="{{item._embedded['wp:featuredmedia'][0].source_url}}" alt="" class="immaginecard">
+            <p class="titolo">{{item.title.rendered}}</p>
+            {{item.excerpt.rendered.slice(3, 130)}}
+            <ng-template pTemplate="footer">
+                <div class="flex-1 flex spazio">
+                    <p class="data">{{item._embedded['wp:featuredmedia'][0].date.slice(0 , -9)}}</p>
+                    <button pButton class=" p-button-rounded bottonenews">{{item._embedded['wp:term'][0][0].name}}</button>
+                </div>
+            </ng-template> -->
+        </p-card>
+        <br>
+    </div> 
+    </div>
+    </div>

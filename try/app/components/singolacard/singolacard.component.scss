@@ -1,0 +1,30 @@
+.card {
+    margin-top: 10%;
+    margin-left: 10px;
+    height: 200px;
+    width: 130px;
+    background-color: #2E2655;
+    border-radius: 15%;
+}
+
+.immagine{
+    margin-top: 10%;
+    margin-left: 28%;
+    margin-right: 28%;
+    height: 70px;
+}
+
+.numero{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", Sans-serif;
+}
+
+.descrizione{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Segoe UI", Sans-serif;
+}

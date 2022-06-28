@@ -1,0 +1,25 @@
+@import "../app/components/header/header.component.scss";
+@import "../app/components/nav/nav.component.scss";
+@import "../app/components/body/body.component.scss";
+@import "../app/components/footer/footer.component.scss";
+
+
+.larghezza{
+    width: 100%;
+}
+
+
+
+app-menu{
+    z-index: 100;
+    overflow-y: hidden;
+}
+
+
+
+app-header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+ 
+}

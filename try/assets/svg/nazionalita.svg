@@ -1,0 +1,23 @@
+ <svg class="widget3" xmlns="http://www.w3.org/2000/svg" width="66.814"
+                                        height="72.408" viewBox="0 0 66.814 72.408">
+                                        <g transform="translate(0 0)">
+                                            <g transform="translate(7.98 6.941)" fill="none" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <path d="M0,0H48.3L34.9,16.542,48.3,32.547H0Z" stroke="none"></path>
+                                                <path
+                                                    d="M 3.000003814697266 3.000001907348633 L 3.000003814697266 29.54740333557129 L 41.87205123901367 29.54740333557129 L 32.59636306762695 18.46785354614258 C 31.67517280578613 17.36751174926758 31.66223335266113 15.76888275146484 32.56550216674805 14.65377235412598 L 42.00535583496094 3.000001907348633 L 3.000003814697266 3.000001907348633 M 3.814697265625e-06 3.814697265625e-06 L 48.29616165161133 3.814697265625e-06 L 34.89666366577148 16.54207229614258 L 48.29616165161133 32.54740142822266 L 3.814697265625e-06 32.54740142822266 L 3.814697265625e-06 3.814697265625e-06 Z"
+                                                    stroke="none" fill="#fff"></path>
+                                            </g>
+                                            <path d="M4717.7-6254.479h41.221l-12.494,16.913,7.649,7.054"
+                                                transform="translate(-4693.602 6256.969)" fill="none" stroke="#fff"
+                                                stroke-linejoin="round" stroke-width="3"></path>
+                                            <g transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="3">
+                                                <rect width="9.3" height="72.408" rx="4.65" stroke="none"></rect>
+                                                <rect x="1.5" y="1.5" width="6.3" height="69.408" rx="3.15" fill="none">
+                                                </rect>
+                                            </g>
+                                            <line x2="29.901" transform="translate(9.3 43.464)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="3"></line>
+                                        </g>
+                                    </svg>

@@ -1,0 +1,110 @@
+
+
+.riquadroverde{
+    background-image: linear-gradient(90deg, #005E19 22%, #AAC711 71%);
+    width: screen;
+    height: 800px; 
+}
+
+
+:host ::ng-deep .p-dropdown-label{
+    color: #004a75;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+:host ::ng-deep .p-dropdown-items-wrapper{
+    max-height: 400px !important;
+}
+
+:host ::ng-deep .p-dropdown{
+    left: 10%;
+    top: 15%;
+    border-radius: 25px;
+    width: 40%;
+}
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items{
+    background: #01a517;
+}
+
+
+.p1{
+    margin-top: 10%;
+    color: #FFFFFFDB;
+    width: 30%;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+.p2{
+    margin-top: 1%;
+    color: #FFFFFFDB;
+    width: 30%;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+.p3{
+    margin-top: 1%;
+    color: #FFFFFFDB;
+    width: 30%;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+
+.p4{
+    margin-top: 1%;
+    color: #FFFFFFDB;
+    width: 30%;
+    margin-left: 10%;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.divicone{
+    margin-left: 10%;
+}
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav{
+    background: transparent;
+}
+
+
+:host ::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    background: transparent;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    background: transparent;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-panels{
+    background: transparent;
+    color: white;
+}
+
+
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item{
+    background: #005e19;
+    color: white;
+}
+
+
+:host ::ng-deep .p-dropdown-panel .p-dropdown-items{
+
+    background: #005e19;
+}
+
+
+.antivirus{
+    background: white;
+    opacity: 0.3;
+    border-radius: 50%;
+}
